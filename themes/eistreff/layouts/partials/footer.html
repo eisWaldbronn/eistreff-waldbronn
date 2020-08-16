@@ -1,0 +1,11 @@
+<footer>
+    <h4>{{ .Site.Title }}</h4>
+    <nav>
+        {{ range .Site.Menus.footer }}
+        <a href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+        </a>
+        {{ end }}
+    </nav>
+</footer>
