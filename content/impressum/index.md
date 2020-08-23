@@ -1,7 +1,9 @@
 ---
 title: "Impressum"
-date: 2020-01-26T23:11:13Z
 draft: false
+description: Lorem ipsum 
+menu: footer
+weight: 40
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 

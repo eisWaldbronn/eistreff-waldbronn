@@ -1,0 +1,35 @@
+$color-white: #fff;
+$color-black: #222;
+
+$color-primary: #01469c;
+$color-secondary: #37b9ca;
+
+$color-gradient-000: #002590;
+$color-gradient-050: #0078be;
+$color-gradient-100: #acf3ea;
+
+:root {
+    --white: #{$color-white};
+    --black: #{$color-black};
+
+    --black-T50: #{rgba($color-black, 0.5)};
+    
+    --grey-050: #{scale-color($color-black, $lightness: 95%)};
+    --grey-100: #{scale-color($color-black, $lightness: 90%)};
+    --grey-200: #{scale-color($color-black, $lightness: 80%)};
+    --grey-300: #{scale-color($color-black, $lightness: 70%)};
+    --grey-400: #{scale-color($color-black, $lightness: 60%)};
+    --grey-500: #{scale-color($color-black, $lightness: 50%)};
+    --grey-600: #{scale-color($color-black, $lightness: 40%)};
+    --grey-700: #{scale-color($color-black, $lightness: 30%)};
+    --grey-800: #{scale-color($color-black, $lightness: 20%)};
+    --grey-900: #{scale-color($color-black, $lightness: 10%)};
+
+    --primary: #{$color-primary};
+
+    --secondary: #{$color-secondary};
+    --secondary-250: scale-color($color-secondary, $lightness: -25%);
+    --secondary-400: scale-color($color-secondary, $lightness: -40%);
+
+    --gradient: linear-gradient(90deg, #{$color-gradient-000} 0%, #{$color-gradient-050} 50%, #{$color-gradient-100} 100%);
+}

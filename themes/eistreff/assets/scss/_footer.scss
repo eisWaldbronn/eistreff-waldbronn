@@ -1,0 +1,17 @@
+footer {
+    // Slideout-Footer ganz unten fixieren
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 1.5rem 0;
+
+    a {
+        padding: 0 1em;
+        color: var(--white);
+
+        &:hover {
+            color: var(--grey-100);
+        }
+    }
+}

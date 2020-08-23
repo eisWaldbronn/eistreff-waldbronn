@@ -1,0 +1,40 @@
+@import 'mixins';
+
+header {
+    @include base-container;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+    nav {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 0.5rem;
+        flex: 1;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+        $link-base-padding: 1em;
+        a {
+            background: var(--white);
+            padding: #{$link-base-padding / 4} #{$link-base-padding};
+            border-radius: $link-base-padding;
+            color: var(--primary);
+            text-decoration: none;
+    
+            &:hover {
+                color: var(--primary);
+                background: var(--grey-050);
+            }
+        }
+    }
+
+    .logo {
+        width: 200px;
+        color: var(--white);
+
+        &:hover {
+            color: var(--grey-050);
+        }
+    }
+}

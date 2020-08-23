@@ -1,7 +1,9 @@
 ---
-title: "Eissport"
-date: 2020-01-26T23:11:13Z
+title: "Eishalle"
 draft: false
+description: Lorem ipsum 
+menu: main
+weight: 10
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 

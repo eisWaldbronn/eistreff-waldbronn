@@ -1,0 +1,10 @@
+{{- $href := .Get "href" -}}
+{{- $svg := .Get "svg" -}}
+{{- $title := .Get "title" -}}
+{{- $path := print "svg/" $svg ".svg" -}}
+
+<a class="cta-icon"
+   href='{{ $href }}'>
+    {{ partial $path }}
+    <span>{{ $title }}</span>
+</a>

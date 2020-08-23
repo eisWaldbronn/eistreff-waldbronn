@@ -1,0 +1,28 @@
+@import 'mixins';
+
+main {
+    // background: var(--white);
+    color: var(--black);
+    // Max Höhe sicherstellen wegen Slideout-Footer
+    min-height: 100vh;
+    // Main muss über dem Slideout-Footer liegen
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 8px 8px 0 var(--black-T50);
+
+    &::before {
+        content: '';
+        background: var(--white);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        clip-path: polygon(0 15rem, 100% 4rem, 100% 100%, 0% 100%);
+        z-index: -1;
+    }
+
+    .content {
+        @include base-container;
+        position: relative;
+    }
+}

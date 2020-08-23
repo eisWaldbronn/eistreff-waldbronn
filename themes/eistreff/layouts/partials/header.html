@@ -1,4 +1,8 @@
 <header>
+    <a class='logo'
+       href='{{ $.Site.Home.RelPermalink }}'>
+        {{ partial "svg/logo.svg" }}
+    </a>
     <nav>
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}">

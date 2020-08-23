@@ -1,3 +1,10 @@
 {{ define "main" }}
-<h1>Non Stop Eislaufen <span>in zwei Hallen</span></h1>
+
+{{ if .Content }}
+<div class='content'>
+    <!-- {{ partial "entry/content" . }} -->
+    {{ .Content }}
+</div>
+{{ end }}
+
 {{ end }}

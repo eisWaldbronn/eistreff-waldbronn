@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 16px/1.55 Arial, Verdana, sans-serif;
+    margin: 0;
+    background: var(--gradient)
+}
+
+h1 {
+    color: var(--grey-300);
+}
+
+h2,
+h3 {
+    color: var(--grey-500);
+}
+
+h4 {
+    color: var(--grey-300);
+    font-weight: 400;
+}
+
+a {
+    color: var(--secondary);
+
+    &:not(:hover) {
+        text-decoration: none;
+    }
+
+    &:hover {
+        color: var(--secondary-250);
+    }
+
+    &:active {
+        color: var(--secondary-400);
+    }
+}
+
+svg {
+    fill: currentColor;
+}

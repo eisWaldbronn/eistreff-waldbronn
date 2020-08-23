@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+<div class="icon-bar {{ .Get "class" }}">
+    {{ .Inner }}
+</div>
+{{ else }}
+<div class="icon-bar {{ .Get 0 }}">
+    {{ .Inner }}
+</div>
+{{ end }}
