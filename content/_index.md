@@ -11,13 +11,38 @@ title: Home
   {{< icon-cta href="/events" svg="route" title="Anfahrt" >}}
 {{< /icon-bar >}}
 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor 
-aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis. 
+## Das ultimative Eislaufvergnügen in Waldbronn
 
-{{< icon-bar >}}
+Zwei klimatisierte [Eislaufhallen](/halle), welche durch eine Passage verbunden sind und eine zeitlich versetzte Eisaufbereitung haben, ermöglichen ein dauerhaftes Eislaufen.
 
-Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis 
-tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget 
-velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est 
-ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id 
-semper risus in hendrerit gravida rutrum.
+[Publikumslauf](/halle) und [Disco-On-Ice](/halle) bieten Eisvergnügen für alle Altersgruppen.
+
+{{< picto-bar >}}
+
+{{< columns >}}
+
+{{% column %}}
+### Öffentlicher Eislauf
+
+Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
+
+[Eislaufen](/halle)
+{{% /column %}}
+
+{{% column %}}
+### Verein
+
+Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling. 
+
+[www.erc-waldbronn.de](https://erc-waldbronn.de/)
+{{% /column %}}
+
+{{% column %}}
+### Fortbildungen
+
+Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle. 
+
+[Business-Club](/business-club)
+{{% /column %}}
+
+{{< /columns >}}

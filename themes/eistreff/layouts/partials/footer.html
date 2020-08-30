@@ -9,3 +9,11 @@
         {{ end }}
     </nav>
 </footer>
+
+{{ $linkHandler := resources.Get "js/external-links.js" | minify }}
+{{ $empty := resources.Get "js/empty.js" | minify }}
+
+{{ $script := slice $linkHandler $empty | resources.Concat "js/scipt.js" }}
+<script type="text/javascript"
+        src="{{ $script.Permalink }}"
+        defer></script>

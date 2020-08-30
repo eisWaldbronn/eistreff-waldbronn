@@ -1,0 +1,13 @@
+.picto-bar {
+    background: var(--gradient);
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    svg {
+        width: 6rem;
+        color: var(--white);
+    }
+}
