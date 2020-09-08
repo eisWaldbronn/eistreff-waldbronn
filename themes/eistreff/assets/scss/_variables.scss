@@ -1,0 +1,18 @@
+// ---------- Link Styling ----------
+
+$link-base-padding: 1em;
+
+$link-padding-top: $link-base-padding / 4;
+$link-padding-side: $link-base-padding;
+
+$link-padding: #{$link-padding-top} #{$link-padding-side};
+
+// ---------- Page Widths ----------
+
+$width-phone: 500px;
+$width-tablet: 700px;
+$width-dekstop: 1000px;
+
+// ---------- Z-Indexes ----------
+
+$z-main-nav: 100;

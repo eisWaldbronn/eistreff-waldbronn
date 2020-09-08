@@ -7,11 +7,7 @@ footer {
     padding: 1.5rem 0;
 
     a {
-        padding: 0 1em;
-        color: var(--white);
-
-        &:hover {
-            color: var(--grey-100);
-        }
+        @include link;
+        padding: $link-padding;
     }
 }

@@ -1,0 +1,17 @@
+{
+    "name": "eistreff-waldbronn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/eisWaldbronn/eistreff-waldbronn.git",
+    "author": "<eis.waldbronn@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "hugo serve --minify"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.11.6",
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "^7.10.4"
+    }
+}

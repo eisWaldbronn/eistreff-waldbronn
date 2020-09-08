@@ -4,10 +4,19 @@
     .content {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+
+        @include media-tablet-only {
+            width: 18rem;
+        }
     }
 
     svg {
-        width: 6rem;
+        width: 5rem;
         color: var(--white);
+
+        @include media-desktop {
+            width: 6rem;
+        }
     }
 }

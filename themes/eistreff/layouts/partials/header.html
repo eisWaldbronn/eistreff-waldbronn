@@ -1,14 +1,18 @@
 <header>
-    <a class='logo'
+    <a class='nav__logo'
        href='{{ $.Site.Home.RelPermalink }}'>
         {{ partial "svg/logo.svg" }}
     </a>
     <nav>
-        {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}">
-            {{ $text := print .Name | safeHTML }}
-            {{ $text }}
-        </a>
-        {{ end }}
+        <a href="#"
+           class="nav__mobile">&#9776 Menu</a>
+        <div class="nav__main nav--mobile-hidden">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}">
+                {{ $text := print .Name | safeHTML }}
+                {{ $text }}
+            </a>
+            {{ end }}
+        </div>
     </nav>
 </header>

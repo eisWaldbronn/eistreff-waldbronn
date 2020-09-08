@@ -10,10 +10,13 @@
     </nav>
 </footer>
 
-{{ $linkHandler := resources.Get "js/external-links.js" | minify }}
-{{ $empty := resources.Get "js/empty.js" | minify }}
+{{ $opts := dict "noComments" true "minified" true "compact" true }}
 
-{{ $script := slice $linkHandler $empty | resources.Concat "js/scipt.js" }}
+{{- $linkHandler := resources.Get "ts/external-links.ts" | babel $opts -}}
+{{- $typescript := resources.Get "ts/main-nav.ts" | babel $opts -}}
+
+{{ $script := slice $typescript $linkHandler | resources.Concat "js/script.js" | minify | fingerprint }}
 <script type="text/javascript"
         src="{{ $script.Permalink }}"
+        integrity="{{ $script.Data.Integrity }}"
         defer></script>
