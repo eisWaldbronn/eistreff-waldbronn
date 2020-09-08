@@ -1,6 +1,8 @@
 <header>
     <a class='nav__logo'
-       href='{{ $.Site.Home.RelPermalink }}'>
+       title="{{ .Site.Title}}"
+       href='{{ .Site.Home.RelPermalink }}'>
+        <span>{{ .Site.Title }}</span>
         {{ partial "svg/logo.svg" }}
     </a>
     <nav>

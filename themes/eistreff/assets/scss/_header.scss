@@ -24,6 +24,14 @@ header {
     &__logo {
         @include link;
         width: 200px;
+
+        span {
+            visibility: hidden;
+            position: absolute;
+            height: 0;
+            width: 0;
+            opacity: 0;
+        }
     }
 
     &__main {
