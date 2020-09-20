@@ -6,7 +6,7 @@ main {
     // Main muss über dem Slideout-Footer liegen
     position: relative;
     z-index: 1;
-    box-shadow: 0 8px 8px 0 var(--black-T50);
+    box-shadow: 0 8px 4px 0 var(--black-T50);
 
     &::before {
         content: '';
@@ -15,8 +15,13 @@ main {
         height: 100%;
         position: absolute;
         display: block;
-        clip-path: polygon(0 15rem, 100% 4rem, 100% 100%, 0% 100%);
         z-index: -1;
+
+        background: linear-gradient(
+            #{$gradient-rotation},
+            #{$color-transparent} #{$main-bg-top - $logo-height},
+            var(--white) #{$main-bg-top - $logo-height + 0.1},
+        ),
     }
 
     .content {

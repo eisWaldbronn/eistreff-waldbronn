@@ -1,0 +1,19 @@
+{{ $image := .Params.hero_image }}
+{{ $headline := .Params.hero_headline }}
+{{ $subheadline := .Params.hero_subheadline }}
+
+<div class="content hero">
+    {{ if $headline }}
+    <h1>
+        <span>{{- $headline -}}</span>
+        {{ if $subheadline }}
+        <span>{{- $subheadline -}}</span>
+        {{ end }}
+    </h1>
+    {{ end }}
+
+    {{ if $image }}
+    <img class="hero__image"
+         src="./assets/img/{{ $image }}">
+    {{ end }}
+</div>

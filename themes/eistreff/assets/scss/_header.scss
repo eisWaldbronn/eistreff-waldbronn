@@ -2,6 +2,8 @@ header {
     @include base-container;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    z-index: 2;
     
     
     nav {
@@ -23,7 +25,7 @@ header {
 .nav {
     &__logo {
         @include link;
-        width: 200px;
+        height: $logo-height;
 
         span {
             visibility: hidden;
@@ -31,6 +33,11 @@ header {
             height: 0;
             width: 0;
             opacity: 0;
+        }
+
+        svg {
+            width: auto;
+            height: 100%;
         }
     }
 
@@ -45,7 +52,8 @@ header {
             flex-direction: column;
             text-align: right;
             z-index: $z-main-nav;
-            background: var(--primary);
+            background: var(--gradient);
+            padding: 0 #{$base-padding} 0 #{$base-padding / 2};
         }
     }
 

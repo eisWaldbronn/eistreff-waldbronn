@@ -1,0 +1,87 @@
+.hero {
+    &__image {
+        display: none;
+        
+        @include media-tablet {
+            display: block;
+            position: absolute;
+            top: -$logo-height - 1;
+            right: 0;
+            z-index: -2;
+            opacity: 0.4;
+            clip-path: polygon(50% 0,100% 0%,75% 100%,25% 100%);
+            height: $main-bg-top;
+            width: auto;
+        }
+        
+        @include media-desktop {
+            top: -$logo-height - 2;
+            clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
+        }
+    }
+
+    h1 {
+        display: block;
+        margin: 0.5rem 0;
+        
+        @include media-tablet-only {
+            text-align: center;
+        }
+
+        @include media-tablet {
+            margin: 1rem 30% 1rem 0;
+            font-size: 1.7rem;
+        }
+
+        @include media-desktop {
+            margin: 0.5rem 30% 0.5rem 0;
+            font-size: 2rem;
+        }
+
+        span:first-child {
+            display: block;
+            color: var(--grey-100);
+        }
+
+        span:last-child {
+            display: block;
+            font-size: 1.3rem;
+            border-top: 1px solid;
+        }
+    }
+}
+
+body:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;    
+    height: $main-bg-top + 2 * $base-padding;
+
+    opacity: 0.4;
+    background-blend-mode: overlay;
+    background:
+        var(--gradient),
+        linear-gradient(
+            #{$gradient-rotation},
+            #{$color-transparent} #{$gradient-pos-1},
+            #{$gradient-dark} #{$gradient-pos-1 + 0.1},
+            #{$gradient-mid} #{$gradient-pos-1 + $gradient-width},
+            #{$color-transparent} #{$gradient-pos-1 + $gradient-width + 0.1},
+        ),
+        linear-gradient(
+            #{$gradient-rotation},
+            #{$color-transparent} #{$gradient-pos-2},
+            #{$gradient-mid} #{$gradient-pos-2 + 0.1},
+            #{$gradient-light} #{$gradient-pos-2 + $gradient-width},
+            #{$color-transparent} #{$gradient-pos-2 + $gradient-width + 0.1},
+        ),
+        linear-gradient(
+            #{$gradient-rotation},
+            #{$color-transparent} #{$gradient-pos-3},
+            #{$gradient-dark} #{$gradient-pos-3 + 0.1},
+            #{$gradient-mid} #{$gradient-pos-3 + $gradient-width},
+            #{$color-transparent} #{$gradient-pos-3 + $gradient-width + 0.1},
+        ),
+    ;
+}

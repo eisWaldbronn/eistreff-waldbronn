@@ -1,8 +1,9 @@
 ---
 title: Home
+hero_image: eistreff.png
+hero_headline: Non Stop Eislaufen
+hero_subheadline: in zwei Hallen
 ---
-
-# Non Stop Eislaufen in zwei Hallen
 
 {{< icon-bar >}}
   {{< icon-cta href="/halle" svg="ticket" title="eTicket kaufen" >}}

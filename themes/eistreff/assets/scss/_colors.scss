@@ -8,6 +8,8 @@ $color-gradient-000: #002590;
 $color-gradient-050: #0078be;
 $color-gradient-100: #acf3ea;
 
+$color-transparent: rgba(0, 0, 0, 0);
+
 :root {
     --white: #{$color-white};
     --black: #{$color-black};
