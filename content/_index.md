@@ -1,8 +1,8 @@
 ---
 title: Home
 hero_image: eistreff.png
-hero_headline: Non Stop Eislaufen
-hero_subheadline: in zwei Hallen
+hero_headline: Endlich beginnt sie wieder
+hero_subheadline: … die EISZEIT
 ---
 
 {{< icon-bar >}}
@@ -12,11 +12,22 @@ hero_subheadline: in zwei Hallen
   {{< icon-cta href="/events" svg="route" title="Anfahrt" >}}
 {{< /icon-bar >}}
 
-## Das ultimative Eislaufvergnügen in Waldbronn
+Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln!
 
-Zwei klimatisierte [Eislaufhallen](/halle), welche durch eine Passage verbunden sind und eine zeitlich versetzte Eisaufbereitung haben, ermöglichen ein dauerhaftes Eislaufen.
+Weitere Infos folgen hier auf unserer Homepage.
 
-[Publikumslauf](/halle) und [Disco-On-Ice](/halle) bieten Eisvergnügen für alle Altersgruppen.
+
+## Das ultimative Eislaufvergnügen
+
+Bei uns ist der Eissport Zuhause!
+
+In der kalten Jahreszeit ist der Eistreff ein Paradies für Kufenflitzer. Ob Familien, Eiskunstläufer oder Eishockeyspieler – wir führen jeden aufs Glatteis.
+
+Zwei klimatisierte Eislaufhallen, welche durch eine Passage verbunden sind und eine zeitlich versetzte Eisaufbereitung haben, ermöglichen ein dauerhaftes Eislaufen.
+
+Das Schlittschuhlaufen erlernen oder das eigene Können verbessern: Bei uns können das alle Eislaufbegeisterten und solche, die es werden wollen. Ohne Altersbeschränkung oder sonstige Bedingungen! Kommen Sie zu unseren offenen Laufzeiten, in die Eisdisco oder zum Familienlaufen ins Eistreff – Hauptsache, Sie haben Spaß dabei!
+
+Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflernhilfe aus, mit der das Üben ganz sicher besser klappt.
 
 {{< picto-bar >}}
 

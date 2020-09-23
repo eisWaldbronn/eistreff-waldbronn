@@ -43,3 +43,30 @@ a {
 svg {
     fill: currentColor;
 }
+
+// Listing für AGBs
+$list-spacer: 2rem;
+ol, ul {
+    padding: 0;
+
+    > li {
+        padding-left: $list-spacer;
+        list-style-type: none;
+        counter-increment: item;
+
+        ol {
+            list-style-type: upper-alpha;
+        }
+
+        h3, h4 {
+            margin-top: 2.5rem;
+
+            &:before {
+                content: counter(item)".";
+                display: inline-block;
+                width: $list-spacer;
+                margin-left: -$list-spacer;
+            }
+        }
+    }
+}

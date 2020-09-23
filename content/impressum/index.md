@@ -3,7 +3,7 @@ title: "Impressum"
 draft: false
 description: Lorem ipsum 
 menu: footer
-weight: 40
+weight: 50
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
