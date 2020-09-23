@@ -7,7 +7,7 @@
     "license": "MIT",
     "scripts": {
         "start": "hugo serve --minify",
-        "build": "hugo --gc --minify"
+        "build": "yarn install && hugo --gc --minify"
     },
     "devDependencies": {
         "@babel/cli": "^7.11.6",
