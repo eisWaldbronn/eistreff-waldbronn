@@ -57,7 +57,12 @@ ol, ul {
     font-size: $font-h3-size;
     font-weight: 700;
     
+    
     & ol, ul {
+        @include media-phone-only {
+            padding-left: 0;
+        }
+
         color: var(--grey-300);
         font-weight: 400;
         font-size: 1rem;
