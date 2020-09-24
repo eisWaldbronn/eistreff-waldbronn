@@ -16,16 +16,39 @@ main {
         position: absolute;
         display: block;
         z-index: -1;
-
-        background: linear-gradient(
-            #{$gradient-rotation},
-            #{$color-transparent} #{$main-bg-top - $logo-height},
-            var(--white) #{$main-bg-top - $logo-height + 0.1},
-        ),
     }
 
     .content {
         @include base-container;
         position: relative;
+    }
+}
+
+
+body.home {
+    $heightPage: $main-bg-top-home - $logo-height;
+
+    main::before {
+        background: linear-gradient(
+            #{$gradient-rotation-home},
+            #{$color-transparent} #{$heightPage},
+            var(--white) #{$heightPage + 0.1},
+        );
+    }
+}
+
+body:not(.home) {
+    .content h1:first-child {
+        margin-bottom: 5rem;
+    }
+
+    $heightPage: $main-bg-top - $logo-height;
+
+    main::before {
+        background: linear-gradient(
+            #{$gradient-rotation},
+            #{$color-transparent} #{$heightPage},
+            var(--white) #{$heightPage + 0.1},
+        );
     }
 }

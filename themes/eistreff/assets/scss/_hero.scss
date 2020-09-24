@@ -1,3 +1,29 @@
+@mixin bg-gradient($rotation, $pos1, $pos2, $pos3) {
+    background:
+        var(--gradient),
+        linear-gradient(
+            #{$rotation},
+            #{$color-transparent} #{$pos1},
+            #{$gradient-dark} #{$pos1 + 0.1},
+            #{$gradient-mid} #{$pos1 + $gradient-width},
+            #{$color-transparent} #{$pos1 + $gradient-width + 0.1},
+        ),
+        linear-gradient(
+            #{$rotation},
+            #{$color-transparent} #{$pos2},
+            #{$gradient-mid} #{$pos2 + 0.1},
+            #{$gradient-light} #{$pos2 + $gradient-width},
+            #{$color-transparent} #{$pos2 + $gradient-width + 0.1},
+        ),
+        linear-gradient(
+            #{$rotation},
+            #{$color-transparent} #{$pos3},
+            #{$gradient-dark} #{$pos3 + 0.1},
+            #{$gradient-mid} #{$pos3 + $gradient-width},
+            #{$color-transparent} #{$pos3 + $gradient-width + 0.1},
+        );
+}
+
 .hero {
     &__image {
         display: none;
@@ -10,7 +36,7 @@
             z-index: -2;
             opacity: 0.4;
             clip-path: polygon(50% 0,100% 0%,75% 100%,25% 100%);
-            height: $main-bg-top;
+            height: $main-bg-top-home;
             width: auto;
         }
         
@@ -51,37 +77,33 @@
     }
 }
 
-body:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;    
-    height: $main-bg-top + 2 * $base-padding;
+body { 
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;    
+        opacity: 0.4;
+        background-blend-mode: overlay;
+    }
 
-    opacity: 0.4;
-    background-blend-mode: overlay;
-    background:
-        var(--gradient),
-        linear-gradient(
-            #{$gradient-rotation},
-            #{$color-transparent} #{$gradient-pos-1},
-            #{$gradient-dark} #{$gradient-pos-1 + 0.1},
-            #{$gradient-mid} #{$gradient-pos-1 + $gradient-width},
-            #{$color-transparent} #{$gradient-pos-1 + $gradient-width + 0.1},
-        ),
-        linear-gradient(
-            #{$gradient-rotation},
-            #{$color-transparent} #{$gradient-pos-2},
-            #{$gradient-mid} #{$gradient-pos-2 + 0.1},
-            #{$gradient-light} #{$gradient-pos-2 + $gradient-width},
-            #{$color-transparent} #{$gradient-pos-2 + $gradient-width + 0.1},
-        ),
-        linear-gradient(
-            #{$gradient-rotation},
-            #{$color-transparent} #{$gradient-pos-3},
-            #{$gradient-dark} #{$gradient-pos-3 + 0.1},
-            #{$gradient-mid} #{$gradient-pos-3 + $gradient-width},
-            #{$color-transparent} #{$gradient-pos-3 + $gradient-width + 0.1},
-        ),
-    ;
+    &.home::before {
+        height: $main-bg-top-home + 2 * $base-padding;
+        @include bg-gradient(
+            $gradient-rotation-home,
+            $gradient-pos-1,
+            $gradient-pos-2-home,
+            $gradient-pos-3-home,
+        );
+    }
+
+    &:not(.home)::before {
+        height: $main-bg-top + 2 * $base-padding;
+        @include bg-gradient(
+            $gradient-rotation,
+            $gradient-pos-1,
+            $gradient-pos-2,
+            $gradient-pos-3,
+        );
+    }
 }

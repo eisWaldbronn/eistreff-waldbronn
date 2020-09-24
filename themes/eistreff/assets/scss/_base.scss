@@ -12,11 +12,17 @@ body {
 
 h1 {
     color: var(--grey-300);
+    font-size: $font-h1-size;
 }
 
-h2,
+h2 {
+    color: var(--grey-500);
+    font-size: $font-h2-size;
+}
+
 h3 {
     color: var(--grey-500);
+    font-size: $font-h3-size;
 }
 
 h4 {
@@ -45,28 +51,33 @@ svg {
 }
 
 // Listing für AGBs
-$list-spacer: 2rem;
 ol, ul {
-    padding: 0;
-
-    > li {
-        padding-left: $list-spacer;
-        list-style-type: none;
-        counter-increment: item;
-
-        ol {
-            list-style-type: upper-alpha;
+    padding-left: 1rem;
+    color: var(--grey-500);
+    font-size: $font-h3-size;
+    font-weight: 700;
+    
+    & ol, ul {
+        color: var(--grey-300);
+        font-weight: 400;
+        font-size: 1rem;
+        list-style-type: upper-roman;
+        
+        & ol, ul {
+            color: var(--black);
+            list-style-type: upper-latin;
         }
+    }
 
+    & > li {
         h3, h4 {
             margin-top: 2.5rem;
-
-            &:before {
-                content: counter(item)".";
-                display: inline-block;
-                width: $list-spacer;
-                margin-left: -$list-spacer;
-            }
         }
+    }
+    
+    li p {
+        color: var(--black);
+        font-weight: 400;
+        font-size: 1rem;
     }
 }

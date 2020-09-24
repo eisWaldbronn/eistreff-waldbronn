@@ -1,3 +1,9 @@
+// ---------- Font ----------
+
+$font-h1-size: 2rem !default;
+$font-h2-size: 1.5rem !default;
+$font-h3-size: 1.2rem !default;
+
 // ---------- Link Styling ----------
 
 $link-base-padding: 1rem !default;
@@ -24,13 +30,18 @@ $base-padding: 1rem !default;
 
 // ---------- Top-Gradient ----------
 
-$gradient-rotation: 174deg;
+$gradient-rotation: 176deg;
+$gradient-rotation-home: 174deg;
 $gradient-width: 2.5rem;
 
 $gradient-pos-1: 2rem;
-$gradient-pos-2: 7rem;
-$gradient-pos-3: 19rem;
-$main-bg-top: 22rem;
+$gradient-pos-2: 6rem;
+$gradient-pos-3: 14rem;
+$gradient-pos-2-home: 7rem;
+$gradient-pos-3-home: 19rem;
+
+$main-bg-top: 14rem;
+$main-bg-top-home: 22rem;
 
 $gradient-light: var(--grey-300);
 $gradient-mid: var(--grey-600);

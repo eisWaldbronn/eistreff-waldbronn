@@ -1,13 +1,10 @@
 ---
 title: AGB
-no_title: false
+alternativ_title: Allgemeine Geschäftsbedingungen
 draft: false
-description: Lorem ipsum 
 menu: footer
 weight: 40
 ---
-
-# Allgemeine Geschäftsbedingungen
 
 Endversion vom 01.10.2020
 
