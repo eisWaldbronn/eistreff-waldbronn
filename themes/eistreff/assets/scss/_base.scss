@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    color: var(--grey-300);
+    color: var(--grey-100);
     font-size: $font-h1-size;
 }
 
@@ -31,18 +31,18 @@ h4 {
 }
 
 a {
-    color: var(--secondary);
+    color: var(--primary);
 
     &:not(:hover) {
         text-decoration: none;
     }
 
     &:hover {
-        color: var(--secondary-250);
+        color: var(--primary-250);
     }
 
     &:active {
-        color: var(--secondary-400);
+        color: var(--primary-400);
     }
 }
 
