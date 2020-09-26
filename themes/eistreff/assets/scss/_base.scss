@@ -4,6 +4,11 @@
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: Humanist;
+    src: url('../font/Humanist-531-Bold.ttf');
+}
+
 body {
     font: 16px/1.55 Arial, Verdana, sans-serif;
     margin: 0;
@@ -11,6 +16,7 @@ body {
 }
 
 h1 {
+    font-family: Humanist;
     color: var(--grey-100);
     font-size: $font-h1-size-mobile;
     
@@ -20,6 +26,7 @@ h1 {
 }
 
 h2 {
+    font-family: Humanist;
     color: var(--grey-500);
     font-size: $font-h2-size-mobile;
     margin-top: 2rem;
@@ -31,12 +38,14 @@ h2 {
 }
 
 h3 {
+    font-family: Humanist;
     color: var(--grey-500);
     font-size: $font-h3-size;
     margin-top: 2rem;
 }
 
 h4 {
+    font-family: Humanist;
     color: var(--grey-300);
     font-weight: 400;
     margin-top: 2rem;
