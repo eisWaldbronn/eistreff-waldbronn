@@ -1,6 +1,6 @@
 ---
 title: "Über uns"
-draft: false
+draft: true
 description: Lorem ipsum 
 menu: main
 weight: 50

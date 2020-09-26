@@ -1,7 +1,6 @@
 ---
 title: "Eishalle"
 draft: false
-description: Lorem ipsum 
 menu: main
 weight: 10
 ---

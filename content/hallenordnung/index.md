@@ -1,7 +1,6 @@
 ---
 title: "Hallenordnung"
 draft: false
-description: Lorem ipsum 
 menu: footer
 weight: 20
 ---

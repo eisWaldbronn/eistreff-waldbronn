@@ -1,7 +1,6 @@
 ---
 title: "Eissport"
-draft: false
-description: Lorem ipsum 
+draft: true
 menu: main
 weight: 40
 ---

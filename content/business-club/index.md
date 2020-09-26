@@ -1,7 +1,6 @@
 ---
 title: "Business Club"
-draft: false
-description: Lorem ipsum 
+draft: true
 menu: main
 weight: 30
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Datenschutz"
 draft: false
-description: Lorem ipsum 
 menu: footer
 weight: 30
 ---

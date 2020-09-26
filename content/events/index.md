@@ -1,7 +1,6 @@
 ---
 title: "Events"
-draft: false
-description: Lorem ipsum 
+draft: true
 menu: main
 weight: 20
 ---
