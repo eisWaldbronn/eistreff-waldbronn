@@ -1,0 +1,50 @@
+body.preise {
+    h5 {
+        border: 1px solid var(--grey-200);
+        border-radius: 10px;
+        padding: 0.35rem 1.5rem;
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 0;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        transform: scale(1);
+        transition: transform 0.3s;
+    }
+
+    tr:hover {
+        box-shadow: 0 0 10px var(--black-T30);
+        transform: scale(1.05);
+        border-radius: 10px;
+        cursor: default;
+    }
+
+    td {
+        padding: 0.5rem 1rem;
+    }
+
+    td:nth-of-type(2n) {
+        text-align: right;
+        margin-right: 10rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+
+        span:hover {
+            background: grey;
+        }
+
+        span:nth-of-type(2n) {
+            text-align: right;
+            margin-right: 10rem;
+        }
+    }
+}
