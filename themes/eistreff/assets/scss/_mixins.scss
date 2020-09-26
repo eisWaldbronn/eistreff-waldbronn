@@ -51,9 +51,11 @@
 
 @mixin link-base {
     color: var(--white);
+    fill: currentColor;
 }
 @mixin link-hover {
     color: var(--grey-200);
+    fill: currentColor;
 }
 @mixin link {
     @include link-base;
