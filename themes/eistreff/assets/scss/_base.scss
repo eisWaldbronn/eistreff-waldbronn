@@ -12,13 +12,22 @@ body {
 
 h1 {
     color: var(--grey-100);
-    font-size: $font-h1-size;
+    font-size: $font-h1-size-mobile;
+    
+    @include media-phone {
+        font-size: $font-h1-size;
+    }
 }
 
 h2 {
     color: var(--grey-500);
-    font-size: $font-h2-size;
+    font-size: $font-h2-size-mobile;
     margin-top: 2rem;
+
+    
+    @include media-phone {
+        font-size: $font-h2-size;
+    }
 }
 
 h3 {
@@ -40,6 +49,8 @@ h5 {
 
 a {
     color: var(--primary);
+    // Wegen Link auf der Datenschutz-Seite
+    word-break: break-all;
 
     &:not(:hover) {
         text-decoration: none;
