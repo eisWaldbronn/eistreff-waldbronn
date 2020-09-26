@@ -7,9 +7,14 @@ footer {
     padding: 1.5rem 0;
     color: var(--white);
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    column-gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
     align-items: center;
+    justify-items: center;
+    
+    @include media-tablet {
+        grid-template-columns: auto 1fr auto;
+    }
 
     address {
         font-style: normal;
@@ -27,17 +32,34 @@ footer {
 
     nav {
         display: flex;
-        flex-flow: column;
         align-items: flex-end;
+        flex-flow: wrap;
+        justify-content: center;
+
+        @include media-tablet {
+            flex-flow: column;
+            justify-content: initial;
+        }
     }
 
     .logo {
         display: flex;
-        justify-content: center;
+
+        @include media-tablet-only {
+            display: none;
+        }
 
         svg {
             width: auto;
             height: 5rem;
+            
+            @include media-tablet {
+                height: 4rem;
+            }
+            
+            @include media-desktop {
+                height: 5rem;
+            }
         }
     }
 }
