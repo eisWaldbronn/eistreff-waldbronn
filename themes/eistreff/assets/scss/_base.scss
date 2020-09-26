@@ -18,16 +18,19 @@ h1 {
 h2 {
     color: var(--grey-500);
     font-size: $font-h2-size;
+    margin-top: 2rem;
 }
 
 h3 {
     color: var(--grey-500);
     font-size: $font-h3-size;
+    margin-top: 2rem;
 }
 
 h4 {
     color: var(--grey-300);
     font-weight: 400;
+    margin-top: 2rem;
 }
 
 a {
@@ -46,6 +49,10 @@ a {
     }
 }
 
+hr {
+    margin: 4rem 0;
+}
+
 img {
     max-width: 100%;
     width: auto;
@@ -54,41 +61,4 @@ img {
 
 svg {
     fill: currentColor;
-}
-
-// Listing für AGBs
-ol, ul {
-    padding-left: 1rem;
-    color: var(--grey-500);
-    font-size: $font-h3-size;
-    font-weight: 700;
-    
-    
-    & ol, ul {
-        @include media-phone-only {
-            padding-left: 0;
-        }
-
-        color: var(--grey-300);
-        font-weight: 400;
-        font-size: 1rem;
-        list-style-type: upper-roman;
-        
-        & ol, ul {
-            color: var(--black);
-            list-style-type: upper-latin;
-        }
-    }
-
-    & > li {
-        h3, h4 {
-            margin-top: 2.5rem;
-        }
-    }
-    
-    li p {
-        color: var(--black);
-        font-weight: 400;
-        font-size: 1rem;
-    }
 }

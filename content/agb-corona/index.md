@@ -5,11 +5,11 @@ menu: footer
 weight: 45
 ---
 
-## Ergänzung der Allgemeinen Geschäftsbedingungen (AGB), bzw. Hallen- Eislaufordnung des Eistreff Waldbronn gemeinnützige GmbH
+### Ergänzung der Allgemeinen Geschäftsbedingungen (AGB), bzw. Hallen- Eislaufordnung des Eistreff Waldbronn gemeinnützige GmbH
 
 gültig ab dem 01.10.2020
 
-## Eislaufbetrieb unter Pandemiebedingungen
+### Eislaufbetrieb unter Pandemiebedingungen
 
 Die Ergänzung der AGB gilt zusätzlich zu den bestehenden AGB für das Eistreff Waldbronn gemeinnützige gGmbH 01.10.2020 und ist verbindlich. Sie ändert in den einschlägigen Regelungen die AGB ab, bzw. führt weitere Punkte ein. Die Ergänzung nimmt Regelungen (z. B. behördlich, normativ) auf, die dem Infektions-schutzgesetz bei der Nutzung des Eistreff Waldbronn dienen.
 

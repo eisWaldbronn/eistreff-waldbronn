@@ -1,8 +1,11 @@
+{{ $url := urls.Parse .Permalink }}
+{{ $slug := trim (replace $url.Path "/" "-") "-" }}
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 {{- partial "head.html" . -}}
 
-<body class="{{ if .IsHome }}home{{ end }}">
+<body class="{{ if .IsHome }}home{{ end }} {{ $slug }}">
     {{- partial "header.html" . -}}
     <main>
         {{- block "main" . }}{{- end }}

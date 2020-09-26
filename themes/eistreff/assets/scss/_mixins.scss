@@ -28,6 +28,18 @@
     padding: $base-padding;
     width: 80vw;
 
+    > p,
+    > ul,
+    > ol,
+    > table,
+    > h2,
+    > h3,
+    > h4 {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     @include media-tablet {
         width: 600px
     }
@@ -49,4 +61,10 @@
     &:hover {
         @include link-hover;
     }
+}
+@mixin isHome {
+    body.home { @content; }
+}
+@mixin isNotHome {
+    body:not(.home) {  @content; }
 }
