@@ -1,5 +1,12 @@
 <footer>
-    <h4>{{ .Site.Title }}</h4>
+    <address>
+        <h5>Eistreff Waldbronn</h5>
+        Ermlis-Allee 1<br>
+        76337 Waldbronn
+    </address>
+    <div class="logo">
+        {{ partial "svg/logo.svg" }}
+    </div>
     <nav>
         {{ range .Site.Menus.footer }}
         <a href="{{ .URL }}">
