@@ -3,7 +3,7 @@
 {{- $title := .Get "title" -}}
 {{- $path := print "svg/" $svg ".svg" -}}
 
-<a class="cta-icon"
+<a class="cta__icon"
    href='{{ $href }}'>
     {{ partial $path }}
     <span>{{ $title }}</span>

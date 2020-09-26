@@ -6,12 +6,12 @@ hero_headline: Endlich beginnt sie wieder
 hero_subheadline: … die EISZEIT
 ---
 
-{{< icon-bar >}}
-  {{< icon-cta href="/halle" svg="ticket" title="eTicket kaufen" >}}
-  {{< icon-cta href="/events" svg="time" title="Öffnungszeiten" >}}
-  {{< icon-cta href="/events" svg="euro" title="Preise" >}}
-  {{< icon-cta href="/events" svg="route" title="Anfahrt" >}}
-{{< /icon-bar >}}
+{{< cta/bar >}}
+  {{< cta/icon href="https://eistreff.ticketkauf.me" svg="ticket" title="eTicket kaufen" >}}
+  {{< cta/icon href="/events" svg="time" title="Öffnungszeiten" >}}
+  {{< cta/icon href="/events" svg="euro" title="Preise" >}}
+  {{< cta/icon href="/events" svg="route" title="Anfahrt" >}}
+{{< /cta/bar >}}
 
 Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln!
 

@@ -1,0 +1,50 @@
+.cta {
+    &__bar {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 2rem;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
+    
+        @include media-tablet {
+            display: flex;
+        }
+    }
+    
+    &__icon,
+    &__spacer {
+        width: 10rem;
+        height: 8rem;
+        background: var(--white);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-decoration: none;
+    
+        @include media-tablet {
+            width: 8rem;
+            height: 7rem;
+        }
+    
+        @include media-desktop {
+            width: 10rem;
+            height: 8rem;
+        }
+    }
+    
+    &__icon {
+        color: var(--primary);
+        box-shadow: 0 0 10px var(--black-T50);
+    
+        &:hover {
+            color: var(--primary);
+            background: var(--grey-050);
+        }
+    
+        svg {
+            width: 4rem;
+        }
+    }
+}
