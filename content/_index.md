@@ -2,21 +2,22 @@
 title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
-hero_headline: Endlich beginnt sie wieder
-hero_subheadline: … die EISZEIT
+# hero_headline: Endlich beginnt sie wieder
+# hero_subheadline: … die EISZEIT
+hero_headline: Endlich beginnt sie wieder … die EISZEIT
+hero_subheadline: Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln! Weitere Infos folgen hier auf unserer Homepage.
 ---
 
-{{< cta/bar >}}
+<!-- {{< cta/bar >}}
   {{< cta/icon href="https://eistreff.ticketkauf.me" svg="ticket" title="eTicket kaufen" >}}
   {{< cta/icon href="/events" svg="time" title="Öffnungszeiten" >}}
   {{< cta/icon href="/events" svg="euro" title="Preise" >}}
   {{< cta/icon href="/events" svg="route" title="Anfahrt" >}}
-{{< /cta/bar >}}
+{{< /cta/bar >}} -->
 
-Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln!
+{{< cta/e-ticket >}}
 
-Weitere Infos folgen hier auf unserer Homepage.
-
+<!-- ##### Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln! Weitere Infos folgen hier auf unserer Homepage. -->
 
 ## Das ultimative Eislaufvergnügen
 

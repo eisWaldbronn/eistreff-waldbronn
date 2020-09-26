@@ -24,9 +24,11 @@
         }
 
         span:last-child {
-            font-size: 1.3rem;
+            font-size: 1rem;
             border-top: 1px solid;
-            color: var(--grey-300);
+            // color: var(--grey-300);
+            font-weight: 400;
+            padding-top: .5rem;
         }
     }
 }
