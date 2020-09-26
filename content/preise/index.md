@@ -12,15 +12,14 @@ hero_image_alt: Eingang Eistreff Waldbronn
 
 Finden Sie hier alle aktuellen Preise der Eintrittskarten für Erwachsene, Kinder, Senioren, Gruppen und Schulklassen. 
 
-## Tickets hier direkt online kaufen!
-
-{{< cta/bar >}}
+<!-- {{< cta/bar >}}
   {{< cta/icon href="/halle" svg="ticket" title="eTicket kaufen" >}}
   {{< cta/spacer>}} oder {{< /cta/spacer >}}
   {{< cta/icon href="/halle" svg="ticket" title="eTicket kaufen" >}}
   {{< cta/spacer>}} oder {{< /cta/spacer >}}
   {{< cta/icon href="/halle" svg="ticket" title="eTicket kaufen" >}}
-{{< /cta/bar >}}
+{{< /cta/bar >}} -->
+{{< cta/e-ticket >}}
 
 ##### Eintritt pro Laufzeit
 |||
