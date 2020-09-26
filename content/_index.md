@@ -1,6 +1,7 @@
 ---
 title: Home
 hero_image: eistreff.png
+hero_image_alt: Eistreff Waldbronn
 hero_headline: Endlich beginnt sie wieder
 hero_subheadline: … die EISZEIT
 ---

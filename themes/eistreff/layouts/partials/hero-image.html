@@ -1,4 +1,4 @@
-{{ $image := .Params.hero_image }}
+{{ $image := resources.Get (print "/img/" .Params.hero_image )}}
 {{ $headline := .Params.hero_headline }}
 {{ $subheadline := .Params.hero_subheadline }}
 
@@ -15,7 +15,10 @@
 
     {{ if $image }}
     <img class="hero__image"
-         src="./assets/img/{{ $image }}">
+         src="{{ $image.RelPermalink }}"
+         alt="{{ .Params.hero_image_alt }}"
+         width="{{ $image.Width }}"
+         height="{{ $image.Height }}">
     {{ end }}
 </div>
 {{ end }}

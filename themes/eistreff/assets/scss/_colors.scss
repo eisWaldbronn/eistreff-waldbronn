@@ -30,10 +30,5 @@ $color-transparent: rgba(0, 0, 0, 0);
     --primary-250: #{scale-color($color-primary, $lightness: -25%)};
     --primary-400: #{scale-color($color-primary, $lightness: -40%)};
 
-    --gradient: linear-gradient(
-        90deg,
-        #{$color-gradient-000} 0%,
-        #{$color-gradient-050} 50%,
-        #{$color-gradient-100} 100%
-    );
+    --gradient: linear-gradient(90deg, #{$color-gradient-000} 0%, #{$color-gradient-050} 50%, #{$color-gradient-100} 100%);
 }
