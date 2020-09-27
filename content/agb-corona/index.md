@@ -11,7 +11,7 @@ gültig ab dem 01.10.2020
 
 ### Eislaufbetrieb unter Pandemiebedingungen
 
-Die Ergänzung der AGB gilt zusätzlich zu den bestehenden AGB für das Eistreff Waldbronn gemeinnützige gGmbH 01.10.2020 und ist verbindlich. Sie ändert in den einschlägigen Regelungen die AGB ab, bzw. führt weitere Punkte ein. Die Ergänzung nimmt Regelungen (z. B. behördlich, normativ) auf, die dem Infektions-schutzgesetz bei der Nutzung des Eistreff Waldbronn dienen.
+Die Ergänzung der AGB gilt zusätzlich zu den bestehenden AGB für das Eistreff Waldbronn gemeinnützige gGmbH 01.10.2020 und ist verbindlich. Sie ändert in den einschlägigen Regelungen die AGB ab, bzw. führt weitere Punkte ein. Die Ergänzung nimmt Regelungen (z. B. behördlich, normativ) auf, die dem Infektionsschutzgesetz bei der Nutzung des Eistreff Waldbronn dienen.
 
 Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie – wieder in Betrieb. Priorität bleibt, weitere Infektionen zu vermeiden. Darauf hat sich die Betreiberin in der Ausstattung des Eistreff Waldbronn und in der Organisation des Eislaufbetriebes eingestellt. Die Maßnahmen des Anlagenbetreiber sollen der Gefahr von Infektionen soweit wie möglich vorbeugen. Um dieses Ziel zu erreichen, ist es aber zwingend erforderlich, dass auch die Eislaufgäste ihrer Verantwortung – gegenüber anderen und sich selbst – durch Einhaltung der Regelungen der AGB gerecht werden. Gleichwohl wird das Verhalten der Eislaufgäste durch unser Personal kontrolliert, das im Rahmen des Hausrechts tätig wird. Allerdings ist eine lückenlose Überwachung nicht möglich.
 
@@ -35,7 +35,7 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
     1. #### Allgemeine Hygienemaßnahmen
 
-        1. Personen mit einer bekannten/nachgewiesenen Infektion durch das „Coronavirus“ ist der Zutritt nicht gestattet. Dies gilt auch für Eislaufgäste mit Symptomen eines Atemwegsinfektes oder erhöhter Temperatur.
+        1. Personen mit einer bekannten/nachgewiesenen Infektion durch das "Coronavirus" ist der Zutritt nicht gestattet. Dies gilt auch für Eislaufgäste mit Symptomen eines Atemwegsinfektes oder erhöhter Temperatur.
 
         1. Aufgrund der Maskenpflicht ist das Tragen einer Mund-Nasen-Maske (Mund-Nasen-Bedeckung) im Eingangsbereich sowie auf dem Weg zur Umkleidebereichen/WC/Sanitäranlagen in den gekennzeichneten Bereichen verpflichtend.
 
@@ -50,7 +50,7 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
         1. Die aktuell gebotenen Abstandsregeln (z. B. 2er-Regelung, Abstand mindestens 1,5 m) sind in allen Bereichen des Bades, insbesondere in Räumen einzuhalten. In gekennzeichneten Bereichen/Räumen bzw. an Engstellen ist zu warten, bis die maximal angegebene Zahl der anwesenden Personen unterschritten ist.
 
-        1. In den Sanitär und WC- Bereichen darf die Anzahl an Personen, die auf den örtlichen Hinweisschildern genannt ist, nicht überschritten werden.
+        1. In den Sanitär und WC-Bereichen darf die Anzahl an Personen, die auf den örtlichen Hinweisschildern genannt ist, nicht überschritten werden.
 
         1. Auf den Eislaufflächen muss der gebotene Abstand von mindestens 1,5 m selbstständig gewahrt werden. Gruppenbildungen sind zu vermeiden – insbesondere an der Bande und in der Flächenmitte
 
@@ -62,11 +62,11 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
 1. ### Preise und Eintritt
 
-    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes ‚e-Ticket System‘ möglich, bei dem auch zwingend die persönlichen Daten erfasst werden. 
+    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes "eTicket-System" möglich, bei dem auch zwingend die persönlichen Daten erfasst werden. 
 
-    Unser Personal ist ausdrücklich dazu berechtigt die beim Kauf des ‚eTicket‘ gemachten Angaben zu kontrollieren.
+    Unser Personal ist ausdrücklich dazu berechtigt die beim Kauf des "eTicket" gemachten Angaben zu kontrollieren.
 
-    Alle in den bisherigen AGB, bzw. Hallenordnung des Eistreff Waldbronn erfassten Punkte bzgl. Zutrittsberechtigung/Eintrittskarten/Eintrittspreise verlieren mit der „Pandemie-Ergänzung“ ihre Gültigkeit. 
+    Alle in den bisherigen AGB, bzw. Hallenordnung des Eistreff Waldbronn erfassten Punkte bzgl. Zutrittsberechtigung/Eintrittskarten/Eintrittspreise verlieren mit der "Pandemie-Ergänzung" ihre Gültigkeit. 
 
 1. ### Aufsicht und Hausrecht
 

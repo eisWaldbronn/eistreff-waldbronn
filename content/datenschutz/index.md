@@ -18,7 +18,7 @@ weight: 30
     Ermlis-Alle1   
     76337 Waldbronn  
     Telefon: 07243 766622  
-    Mail: datenschutz@eistreff.net
+    E-Mail: datenschutz@eistreff.net
 
     Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
 
@@ -85,7 +85,7 @@ weight: 30
     
     #### SSL- bzw. TLS-Verschlüsselung
     
-    Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. Sie erkennen eine verschlüsselte Verbindung an der „https://“ Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.
+    Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL-bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. Sie erkennen eine verschlüsselte Verbindung an der "https://" Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.
     
     #### Server-Log-Dateien
     
@@ -131,7 +131,7 @@ weight: 30
 
     Unsere Website verwendet Cookies. Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert. Cookies helfen uns dabei, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen.
 
-    Einige Cookies sind “Session-Cookies.” Solche Cookies werden nach Ende Ihrer Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie diese selbst löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf unserer Website wiederzuerkennen.
+    Einige Cookies sind "Session-Cookies." Solche Cookies werden nach Ende Ihrer Browser-Sitzung von selbst gelöscht. Hingegen bleiben andere Cookies auf Ihrem Endgerät bestehen, bis Sie diese selbst löschen. Solche Cookies helfen uns, Sie bei Rückkehr auf unserer Website wiederzuerkennen.
     
     Mit einem modernen Webbrowser können Sie das Setzen von Cookies überwachen, einschränken oder unterbinden. Viele Webbrowser lassen sich so konfigurieren, dass Cookies mit dem Schließen des Programms von selbst gelöscht werden. Die Deaktivierung von Cookies kann eine eingeschränkte Funktionalität unserer Website zur Folge haben.
     
@@ -185,7 +185,7 @@ weight: 30
     
     Demografische Merkmale bei Google Analytics
     
-    Unsere Website verwendet die Funktion “demografische Merkmale” von Google Analytics. Mit ihr lassen sich Berichte erstellen, die Aussagen zu Alter, Geschlecht und Interessen der Seitenbesucher enthalten. Diese Daten stammen aus interessenbezogener Werbung von Google sowie aus Besucherdaten von Drittanbietern. Eine Zuordnung der Daten zu einer bestimmten Person ist nicht möglich. Sie können diese Funktion jederzeit deaktivieren. Dies ist über die Anzeigeneinstellungen in Ihrem Google-Konto möglich oder indem Sie die Erfassung Ihrer Daten durch Google Analytics, wie im Punkt “Widerspruch gegen die Datenerfassung” erläutert, generell untersagen.
+    Unsere Website verwendet die Funktion "demografische Merkmale" von Google Analytics. Mit ihr lassen sich Berichte erstellen, die Aussagen zu Alter, Geschlecht und Interessen der Seitenbesucher enthalten. Diese Daten stammen aus interessenbezogener Werbung von Google sowie aus Besucherdaten von Drittanbietern. Eine Zuordnung der Daten zu einer bestimmten Person ist nicht möglich. Sie können diese Funktion jederzeit deaktivieren. Dies ist über die Anzeigeneinstellungen in Ihrem Google-Konto möglich oder indem Sie die Erfassung Ihrer Daten durch Google Analytics, wie im Punkt "Widerspruch gegen die Datenerfassung" erläutert, generell untersagen.
     
     #### Google Web Fonts
     
@@ -196,7 +196,7 @@ weight: 30
     
     #### Google Maps
     
-    Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+    Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited ("Google"", Gordon House, Barrow Street, Dublin 4, Irland.
     
     Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP-Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung.
     
@@ -214,7 +214,7 @@ weight: 30
 
     #### Verlinkung auf Online-Angebote Dritter
     
-    Verlinkungen zu Webseiten Dritter werden dem Nutzer auf unserer Website entweder als reine Serviceleistung oder als Hinweis und zum Zwecke der Bewerbung unserer Partner angeboten. Für die Inhalte, zu denen verlinkt wird, sind die Anbieter der jeweiligen Website selbst verantwortlich, ohne dass die „Eistreff Waldbronn gemeinnützige GmbH“ hierfür haftet.
+    Verlinkungen zu Webseiten Dritter werden dem Nutzer auf unserer Website entweder als reine Serviceleistung oder als Hinweis und zum Zwecke der Bewerbung unserer Partner angeboten. Für die Inhalte, zu denen verlinkt wird, sind die Anbieter der jeweiligen Website selbst verantwortlich, ohne dass die "Eistreff Waldbronn gemeinnützige GmbH" hierfür haftet.
 
     #### Änderung unserer Datenschutzbestimmungen
     
