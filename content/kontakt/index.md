@@ -1,9 +1,11 @@
 ---
 title: Kontakt
-alternativ_title: Kontaktieren Sie uns
+no_title: true
 draft: false
 menu: main
 weight: 90
+hero_image: eistreff-lauflernhilfe.jpg
+hero_image_alt: Schlittshuh-Lauflernhilfe des Eistreff Waldbronns
 ---
 
 ## Sie erreichen uns ganz einfach.

@@ -56,6 +56,10 @@
         width: 16rem;
         height: 7rem;
         margin: 1rem;
+        
+        @include media-desktop {
+            margin: 1rem 2rem;
+        }
     
         span {
             margin-left: 1rem;
