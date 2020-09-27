@@ -13,6 +13,7 @@ hero_image_alt: Schlittshuh-Lauflernhilfe des Eistreff Waldbronns
 {{< cta/bar >}}
   {{< cta/phone >}}
   {{< cta/mail >}}
+  {{< cta/address >}}
 {{< /cta/bar >}}
 
 Oder nutzen Sie unser Kontaktformular. Wir werden Ihre Anfrage oder Ihr Feedback schnellstmöglich beantworten.

@@ -1,17 +1,13 @@
 .cta {
     &__bar {
-        // display: grid;
-        // grid-template-columns: repeat(2, auto);
-        // row-gap: 2rem;
-        // justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: 2rem 0;
-    
-        // @include media-tablet {
-        //     display: flex;
-        // }
+        
+        @include media-desktop {
+            justify-content: space-between;
+        }
     }
     
     &__icon,
@@ -58,7 +54,7 @@
         margin: 1rem;
         
         @include media-desktop {
-            margin: 1rem 2rem;
+            margin: 1rem 0;
         }
     
         span {
