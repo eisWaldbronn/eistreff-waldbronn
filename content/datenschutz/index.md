@@ -18,6 +18,7 @@ weight: 30
     {{< param director-1-name >}}{{< param director-2-name ", ">}}  
     {{< param street >}}  
     {{< param city >}}
+
     {{< param phone "Telefon: ">}}  
     {{< param privacy-mail "E-Mail: ">}}  
 
