@@ -10,24 +10,32 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
     align-items: center;
-    justify-items: center;
     
     @include media-tablet {
-        grid-template-columns: auto 1fr auto;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    a:not(adress) {
+        @include link;
+        padding: $link-padding;
     }
 
     address {
+        font-size: 0.8rem;
         font-style: normal;
         color: var(--grey-300);
+
+        @include media-tablet-only {
+            text-align: center;
+        }
 
         h4 {
             margin-top: 0;
         }
-    }
 
-    a {
-        @include link;
-        padding: $link-padding;
+        a {
+            padding: 0;
+        }
     }
 
     nav {
@@ -44,6 +52,7 @@ footer {
 
     .logo {
         display: flex;
+        justify-items: center;
 
         @include media-tablet-only {
             display: none;

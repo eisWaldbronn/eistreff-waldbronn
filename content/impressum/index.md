@@ -7,22 +7,23 @@ weight: 50
 
 ### Angaben gemäß § 5 TMG
 
-Eistreff Waldbronn gemeinnützige GmbH  
-Ermlis-Allee 1  
-76337 Waldbronn
+{{< param company-long >}}  
+{{< param street >}}  
+{{< param city >}}
 
 #### Vertreten durch
 
-Alexander Schroth  
-a.schroth@eistreff.net  
+{{< param director-1-name >}}  
+{{< param director-1-mail >}}
 
-Manfred Wolf  
-m.wolf@eistreff.net
+{{< param director-2-name >}}  
+{{< param director-2-mail >}}
 
 #### Kontakt
-Telefon: 07243 766622  
-Fax:  
-E-Mail: info@eistreff.net
+
+{{< param phone "Telefon: ">}}  
+{{< param mail "E-Mail: " >}}  
+{{< param fax "Fax: ">}}
 
 #### Registereintrag
 

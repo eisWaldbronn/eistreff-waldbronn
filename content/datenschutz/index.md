@@ -12,13 +12,14 @@ weight: 30
 
     #### Benennung der verantwortlichen Stelle
     
-    Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:  
-    Eistreff Waldbronn gemeinnützige GmbH  
-    Alexander Schroth, Manfred Wolf  
-    Ermlis-Alle1   
-    76337 Waldbronn  
-    Telefon: 07243 766622  
-    E-Mail: datenschutz@eistreff.net
+    Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+
+    {{< param company-long >}}  
+    {{< param director-1-name >}}{{< param director-2-name ", ">}}  
+    {{< param street >}}  
+    {{< param city >}}
+    {{< param phone "Telefon: ">}}  
+    {{< param privacy-mail "E-Mail: ">}}  
 
     Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
 

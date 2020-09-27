@@ -1,8 +1,11 @@
 <footer>
     <address>
-        <h4>Eistreff Waldbronn</h4>
-        Ermlis-Allee 1<br>
-        76337 Waldbronn
+        <h4>{{ .Site.Params.company }}</h4>
+        <p>{{ .Site.Params.street }}<br>{{ .Site.Params.city }}</p>
+        <p>
+            Telefon: {{ .Site.Params.phone }}<br>
+            E-Mail: {{ .Site.Params.mail | markdownify }}
+        </p>
     </address>
     <div class="logo">
         {{ partial "svg/logo.svg" }}
