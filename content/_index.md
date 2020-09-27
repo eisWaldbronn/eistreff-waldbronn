@@ -2,10 +2,8 @@
 title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
-# hero_headline: Endlich beginnt sie wieder
-# hero_subheadline: … die EISZEIT
 hero_headline: Endlich beginnt sie wieder … die EISZEIT
-hero_subheadline: Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln! Weitere Infos folgen hier auf unserer Homepage.
+hero_subheadline: Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln!
 ---
 
 <!-- {{< cta/bar >}}
@@ -16,8 +14,6 @@ hero_subheadline: Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Lauf
 {{< /cta/bar >}} -->
 
 {{< cta/e-ticket >}}
-
-<!-- ##### Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln! Weitere Infos folgen hier auf unserer Homepage. -->
 
 ## Das ultimative Eislaufvergnügen
 
@@ -40,7 +36,7 @@ Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflern
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
 
-[Eislaufen](/halle)
+[Preise](/preise)
 {{% /column %}}
 
 {{% column %}}
@@ -52,11 +48,11 @@ Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, 
 {{% /column %}}
 
 {{% column %}}
-### Fortbildungen
+### Business
 
 Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle. 
 
-[Business-Club](/business-club)
+<!-- [Business-Club](/business-club) -->
 {{% /column %}}
 
 {{< /columns >}}

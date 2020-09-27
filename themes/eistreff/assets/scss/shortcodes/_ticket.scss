@@ -15,9 +15,12 @@
     }
     
     @include media-desktop {
-        width: 600px;
         column-gap: 2rem;
         padding: 0.5rem 2.5rem;
+    }
+
+    &__cta-wrapper {
+        text-align: center;
     }
     
     &__cta {
