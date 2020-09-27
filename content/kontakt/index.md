@@ -1,16 +1,20 @@
 ---
-title: "Kontakt"
+title: Kontakt
+alternativ_title: Kontaktieren Sie uns
 draft: false
-description: Lorem ipsum 
-menu: footer
-weight: 10
+menu: main
+weight: 90
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor 
-aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis. 
-Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis 
-tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget 
-velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est 
-ante in nibh mauris cursus. Morbi quis commodo odio aenean. Mollis nunc sed id 
-semper risus in hendrerit gravida rutrum.
+## Sie erreichen uns ganz einfach.
+
+{{< cta/bar >}}
+  {{< cta/phone >}}
+  {{< cta/mail >}}
+{{< /cta/bar >}}
+
+Oder nutzen Sie unser Kontaktformular. Wir werden Ihre Anfrage oder Ihr Feedback schnellstmöglich beantworten.
+
+Felder, die mit einem Sternchen (*) gekennzeichnet sind, sind Pflichtfelder.
+
+{{< form/contact >}}
