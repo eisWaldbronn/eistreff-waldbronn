@@ -9,6 +9,7 @@
         <a href="#"
            class="nav__mobile">&#9776 Menu</a>
         <div class="nav__main nav--mobile-hidden">
+            <a href="/">Home</a>
             {{ range .Site.Menus.main }}
             <a href="{{ .URL }}">
                 {{ $text := print .Name | safeHTML }}
