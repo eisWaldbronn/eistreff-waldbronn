@@ -17,7 +17,8 @@ body {
 
 h1 {
     font-family: Humanist;
-    color: var(--grey-100);
+    // color: var(--primary);
+    color: var(--grey-050);
     font-size: $font-h1-size-mobile;
     
     @include media-phone {
@@ -27,7 +28,8 @@ h1 {
 
 h2 {
     font-family: Humanist;
-    color: var(--grey-500);
+    // color: var(--grey-500);
+    color: var(--primary);
     font-size: $font-h2-size-mobile;
     margin-top: 2rem;
 
@@ -39,14 +41,16 @@ h2 {
 
 h3 {
     font-family: Humanist;
-    color: var(--grey-500);
+    // color: var(--grey-500);
+    color: var(--primary);
     font-size: $font-h3-size;
     margin-top: 2rem;
 }
 
 h4 {
     font-family: Humanist;
-    color: var(--grey-300);
+    color: var(--black);
+    // color: var(--grey-300);
     font-weight: 400;
     margin-top: 2rem;
 }
@@ -62,7 +66,7 @@ a {
     word-break: break-all;
 
     &:not(:hover) {
-        text-decoration: none;
+        // text-decoration: none;
     }
 
     &:hover {

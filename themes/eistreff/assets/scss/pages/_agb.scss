@@ -2,7 +2,8 @@
     > ol,
     > ul {
         padding-left: 3rem;
-        color: var(--grey-500);
+        color: var(--primary);
+        // color: var(--grey-500);
         font-size: $font-h3-size;
         font-weight: 700;
 
@@ -38,7 +39,7 @@ body.agb {
                 > ol,
                 > ul {
                     padding-left: 1rem;
-                    color: var(--grey-300);
+                    color: var(--black);
                     font-weight: 400;
                     font-size: 1rem;
                     list-style-type: upper-roman;
@@ -50,7 +51,7 @@ body.agb {
                     li {
                         > ol,
                         > ul {
-                            color: var(--black);
+                            // color: var(--black);
                             list-style-type: upper-latin;
                         }
                     }

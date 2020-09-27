@@ -18,6 +18,7 @@ header {
         a {
             @include link;
             padding: $link-padding;
+            text-decoration: none;
         }
     }
 }

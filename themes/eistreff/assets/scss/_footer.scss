@@ -18,6 +18,7 @@ footer {
     a:not(adress) {
         @include link;
         padding: $link-padding;
+        text-decoration: none;
     }
 
     address {
