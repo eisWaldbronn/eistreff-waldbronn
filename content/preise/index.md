@@ -21,17 +21,25 @@ Finden Sie hier alle aktuellen Preise der Eintrittskarten für Erwachsene, Kinde
 {{< /cta/bar >}} -->
 {{< cta/e-ticket >}}
 
+Tickets und mehr können in unserem online eTicket-System gebucht werden.
+
+### Bezahlung mit PayPal
+
+Es fallen hierfür zusätzliche Gebühren in Höhe von **0,40 €** je Zahlungsabwicklung an.
+
+### Unser Tipp: Es können auch Tickets für mehrere Tage gekauft werden oder am besten gleich eine Wertkarten
+
 ##### Eintritt pro Laufzeit Freitag bis Samstag
 ||||
 |-|-|-|
 | Erwachsene | [Kurz](/oeffnungszeiten-anfahrt) | 6,00 € |
 | | [Standard](/oeffnungszeiten-anfahrt) | 8,00 € |
-| | [Party](/oeffnungszeiten-anfahrt) | 9,00 € |
+| | [Abend](/oeffnungszeiten-anfahrt) | 9,00 € |
 | Jugendliche (6-17 Jahre) | [Kurz](/oeffnungszeiten-anfahrt) | 5,00 € |
 | | [Standard](/oeffnungszeiten-anfahrt) | 6,50 € |
-| | [Party](/oeffnungszeiten-anfahrt) | 7,00 € |
+| | [Abend](/oeffnungszeiten-anfahrt) | 7,00 € |
 
-##### Eintritt pro Laufzeit Mittwoch
+##### Eintritt pro Laufzeit Mittwoch (nur "kleine Halle")
 |||
 |-|-|
 | Erwachsene | 6,00 € |
@@ -47,7 +55,7 @@ Rabattstaffellung	Stückzahl
 ##### Schulklassen Montag bis Freitag Vormittag, Laufzeit 3 Stunden.
 |||
 |-|-|
-| Je Schüler * ** | 4,00 € |
+| Je Schüler * | 4,00 € |
 
 ##### Wertkarten
 |||
@@ -55,7 +63,7 @@ Rabattstaffellung	Stückzahl
 | 100er (Im Wert von 110,00 €. Rabatt von 10%) | 100,00 € |
 | 200er (Im Wert von 230,00 €. Rabatt von 15%) | 200,00 € |
 | 300er (Im Wert von 360,00 €. Rabatt von 20%) | 300,00 € |
-| VIP 400er ** (Im Wert von 540,00 €. Rabatt von 35%) | 400,00 € |
+<!-- | VIP 400er ** (Im Wert von 540,00 €. Rabatt von 35%) | 400,00 € | -->
 
 <!-- 
 ##### Ermäßigt
@@ -95,10 +103,8 @@ Rabattstaffellung	Stückzahl
 |-|-|
 | Lauflernhilfen, je halbe Stunde | 1,50 € + 5,00 € Pfand |
 | Leihschloß | 1,50 € + 5,00 € Pfand |
-| Schloß kaufen | 6,50 € Pfand |
+| Schloß kaufen | 6,50 € |
 
 ---
 
-\* Schulklassen nur mit Reservierung 
-
-\*\* Online nicht buchbar. Bitte [kontaktieren](/kontakt) Sie uns.
+\* Schulklassen nur mit Reservierung und online nicht buchbar. Bitte [kontaktieren](/kontakt) Sie uns.

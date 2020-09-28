@@ -20,6 +20,20 @@ body.preise {
         transition: transform 0.3s;
     }
 
+    tr td {
+        &:first-child {
+            padding-left: 2rem;
+
+            strong {
+                margin-left: -1rem;
+            }
+        }
+
+        &:last-child {
+            padding-right: 2rem;
+        }
+    }
+
     tr:hover {
         box-shadow: 0 0 10px var(--black-T30);
         transform: scale(1.05);

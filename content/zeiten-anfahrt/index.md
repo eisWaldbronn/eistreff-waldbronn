@@ -39,16 +39,16 @@ Linien: 27, 47 und 115
 |-|-|
 | **Freitag** | **15:00 - 23:00** |
 | Standard | 15:00 - 19:00 |
-| Party | 19:00 - 23:00 |
+| Abend | 19:00 - 23:00 |
 | **Samstag** | **12:30 - 23:00** |
 | Kurz | 12:30 - 15:00 |
 | Standard | 15:00 - 19:00 |
-| Party | 19:00 - 23:00 |
+| Abend | 19:00 - 23:00 |
 | **Sonntag** | **10:00 - 18:30** |
 | Kurz | 10:00 - 12:00 |
 | Standard | 12:00 - 16:00 |
-| Party | 16:00 - 18:30 |
-| **Mittwoch** | **18:15 - 22:00** |
+| Abend | 16:00 - 18:30 |
+| **Mittwoch (nur "kleine Halle")** | **18:15 - 22:00** |
 
 ##### Während den Schulferien
 |||
@@ -56,10 +56,10 @@ Linien: 27, 47 und 115
 | **Lange Schulferien** | **10:00 - 22:00** |
 | Kurz | 10:00 - 14:00 |
 | Standard | 14:00 - 18:00 |
-| Party | 18:00 - 12:00 |
+| Abend | 18:00 - 12:00 |
 | **Kurze Schulferien** | **15:00 - 22:00** |
 | Standard | 15:00 - 18:00 |
-| Party | 18:00 - 22:00 |
+| Abend | 18:00 - 22:00 |
 
 {{% /column %}}
 
