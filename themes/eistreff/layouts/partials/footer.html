@@ -11,6 +11,10 @@
         {{ partial "svg/logo.svg" }}
     </div>
     <nav>
+        <a class="nav__icon"
+           href="https://www.facebook.com/ETWaldbronn/">{{ partial "svg/facebook.svg" }} Facebook</a>
+        <a class="nav__icon"
+           href="https://www.instagram.com/eistreff.waldbronn/">{{ partial "svg/instagram.svg" }} Instagram</a>
         {{ range .Site.Menus.footer }}
         <a href="{{ .URL }}">
             {{ $text := print .Name | safeHTML }}

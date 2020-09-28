@@ -49,6 +49,15 @@ footer {
             flex-flow: column;
             justify-content: initial;
         }
+
+        .nav__icon  {
+            display: flex;
+            
+            svg {
+                width: 1rem;
+                margin-right: 0.5rem;
+            }
+        }
     }
 
     .logo {
