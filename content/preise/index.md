@@ -21,18 +21,48 @@ Finden Sie hier alle aktuellen Preise der Eintrittskarten für Erwachsene, Kinde
 {{< /cta/bar >}} -->
 {{< cta/e-ticket >}}
 
-##### Eintritt pro Laufzeit
+##### Eintritt pro Laufzeit Freitag bis Samstag
+||||
+|-|-|-|
+| Erwachsene | [Kurz](/oeffnungszeiten-anfahrt) | 6,00 € |
+| | [Standard](/oeffnungszeiten-anfahrt) | 8,00 € |
+| | [Party](/oeffnungszeiten-anfahrt) | 9,00 € |
+| Jugendliche (6-17 Jahre) | [Kurz](/oeffnungszeiten-anfahrt) | 5,00 € |
+| | [Standard](/oeffnungszeiten-anfahrt) | 6,50 € |
+| | [Party](/oeffnungszeiten-anfahrt) | 7,00 € |
+
+##### Eintritt pro Laufzeit Mittwoch
 |||
 |-|-|
-| Erwachsene | 9,00 € |
-| Jugendliche (6-17 Jahre) | 7,00 € |
-| Schüler * | 4,00 € |
+| Erwachsene | 6,00 € |
+| Jugendliche (6-17 Jahre) | 5,00 € |
 
+<!-- Mehrfachkarten (Gruppe/11er Karte)	
+Rabattstaffellung	Stückzahl
+10%	10
+13%	15
+15%	20
+20%	50 -->
+
+##### Schulklassen Montag bis Freitag Vormittag, Laufzeit 3 Stunden.
+|||
+|-|-|
+| Je Schüler * ** | 4,00 € |
+
+##### Wertkarten
+|||
+|-|-|
+| 100er (Im Wert von 110,00 €. Rabatt von 10%) | 100,00 € |
+| 200er (Im Wert von 230,00 €. Rabatt von 15%) | 200,00 € |
+| 300er (Im Wert von 360,00 €. Rabatt von 20%) | 300,00 € |
+| VIP 400er ** (Im Wert von 540,00 €. Rabatt von 35%) | 400,00 € |
+
+<!-- 
 ##### Ermäßigt
 |||
 |-|-|
 | Rentner, Studenten, FSJ, BFD und Schwerbehinderte ab 50% GdB | 6,50 € |
-| Treff-Ticket (erw. Begleitperson, ohne Eislaufen) | 3,00 € |
+| Treff-Ticket (erw. Begleitperson, ohne Eislaufen) | 3,00 € | -->
 
 ##### Schlittschuhverleih pro Laufzeit
 |||
@@ -46,20 +76,29 @@ Finden Sie hier alle aktuellen Preise der Eintrittskarten für Erwachsene, Kinde
 | Schlittschuhschleifen normal | 6,00 € |
 | Schlittschuhschleifen Erstschliff | 7,00 € |
 
-##### Saisonkarten (Personenbezogene Mehrfachkarte)
+<!-- ##### Saisonkarten (Personenbezogene Mehrfachkarte)
 |||
 |-|-|
 | 30er Erwachsen | 170,00 € |
 | 30er Jugendlich | 135,00 € |	
 | 65er Erwachsen | 234,00 € |
-| 65er Jugendlich | 190,00 € |
+| 65er Jugendlich | 190,00 € | -->
 
 ##### Kindergeburtstage
 |||
 |-|-|
 | Pauschale | 15,00 € |
-| Gäste | 5,00 € |
+| Pro Gast (Nur bei gebuchter Pauschale) | 5,00 € |
+
+##### Sonstiges
+|||
+|-|-|
+| Lauflernhilfen, je halbe Stunde | 1,50 € + 5,00 € Pfand |
+| Leihschloß | 1,50 € + 5,00 € Pfand |
+| Schloß kaufen | 6,50 € Pfand |
 
 ---
 
-\* Schulklassen nur mit Reservierung. Montag bis Freitag Vormittag, Laufzeit 3 Stunden
+\* Schulklassen nur mit Reservierung 
+
+\*\* Online nicht buchbar. Bitte [kontaktieren](/kontakt) Sie uns.
