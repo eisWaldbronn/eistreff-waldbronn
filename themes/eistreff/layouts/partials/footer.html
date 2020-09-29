@@ -11,16 +11,16 @@
         {{ partial "svg/logo.svg" }}
     </div>
     <nav>
-        <a class="nav__icon"
-           href="https://www.facebook.com/ETWaldbronn/">{{ partial "svg/facebook.svg" }} Facebook</a>
-        <a class="nav__icon"
-           href="https://www.instagram.com/eistreff_waldbronn_ggmbh/">{{ partial "svg/instagram.svg" }} Instagram</a>
         {{ range .Site.Menus.footer }}
         <a href="{{ .URL }}">
             {{ $text := print .Name | safeHTML }}
             {{ $text }}
         </a>
         {{ end }}
+        <span class="nav__icons">
+            <a href="https://www.facebook.com/ETWaldbronn/">{{ partial "svg/facebook.svg" }}</a>
+            <a href="https://www.instagram.com/eistreff_waldbronn_ggmbh/">{{ partial "svg/instagram.svg" }}</a>
+        </span>
     </nav>
 </footer>
 
