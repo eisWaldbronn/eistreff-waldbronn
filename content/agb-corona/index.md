@@ -19,9 +19,11 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
     1. #### Ergänzende allgemeine Grundsätze und Verhalten im Eistreff Waldbronn
 
-        1. Die Begleitung einer erwachsenen Person für Kinder ist abweichend von der bisherigen Regelung. Die Begleitung ist bis zum vollendeten 14. Lebensjahr erforderlich.
+        1. Es besteht Maskenpflicht in der gesamten Halle, jedoch nicht auf der Eisfläche! Ärztliche Atteste zur Befreiung von der Maskenpflicht werden NICHT akzeptiert!
 
-        1. Abstandsregelungen und -markierungen sind in allen Bereichen des Eistreff zu beachten, z. B. im Bereich des Umkleidebereich, in den sanitären Anlagen, vor dem Verleih, im Umlauf der Eisflächen usw.
+        1. Abstandsregelungen und -markierungen sind in allen Bereichen des Eistreffs zu beachten, z. B. im Bereich des Umkleidebereich, in den sanitären Anlagen, vor dem Verleih, im Umlauf der Eisflächen usw.
+
+        1. Die Laufzeitzeiten im öffentlichen Lauf ist in Zeiten aufgeteilt und ENDEN für alle zu den angegebenen Zeiten, d.h. alle Anwesenden müssen die Halle verlassen, damit wir reinigen und desinfizieren können für die nächste Laufzeit. Heißt auch, dass die Eintrittskarte nur für eine gebuchte Laufzeit gültig ist!
 
         1. Die Eisflächen sind unverzüglich nach dem Laufen zu verlassen. Speziell im Bereich der Türen zur oder von der Eisfläche.
 
@@ -44,17 +46,17 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
         1. Im Eingangsbereich und an anderen Übergängen, an denen das Händewaschen nicht möglich ist, sind die Handdesinfektionsstationen zu nutzen.
 
         1. Husten und Niesen nur in ein Taschentuch oder alternativ in die Armbeuge (Husten- und Nies-Etikette).
-        Zum Schutz aller Badegäste und der Mitarbeiterinnen und Mitarbeiter bitten wir Sie um die Beachtung der gültigen Regeln und um Ihre aktive Mithilfe!
+        Zum Schutz aller Eistreffgäste und der Mitarbeiterinnen und Mitarbeiter bitten wir Sie um die Beachtung der gültigen Regeln und um Ihre aktive Mithilfe!
 
     1. #### Maßnahmen zur Abstandswahrung
 
-        1. Die aktuell gebotenen Abstandsregeln (z. B. 2er-Regelung, Abstand mindestens 1,5 m) sind in allen Bereichen des Bades, insbesondere in Räumen einzuhalten. In gekennzeichneten Bereichen/Räumen bzw. an Engstellen ist zu warten, bis die maximal angegebene Zahl der anwesenden Personen unterschritten ist.
+        1. Die aktuell gebotenen Abstandsregeln (z. B. 2er-Regelung, Abstand mindestens 1,5 m) sind in allen Bereichen des Eistreffs, insbesondere in Räumen einzuhalten. In gekennzeichneten Bereichen/Räumen bzw. an Engstellen ist zu warten, bis die maximal angegebene Zahl der anwesenden Personen unterschritten ist.
 
-        1. In den Sanitär und WC-Bereichen darf die Anzahl an Personen, die auf den örtlichen Hinweisschildern genannt ist, nicht überschritten werden.
+        1. In den Sanitär und WC- Bereichen darf die Anzahl an Personen, die auf den örtlichen Hinweisschildern genannt ist, nicht überschritten werden.
 
         1. Auf den Eislaufflächen muss der gebotene Abstand von mindestens 1,5 m selbstständig gewahrt werden. Gruppenbildungen sind zu vermeiden – insbesondere an der Bande und in der Flächenmitte
 
-        1. Die Beschilderungen und Anweisungen durch das Personal sind zu beachten.
+        1. Die Beschilderungen und Anweisungen durch das Personals sind zu beachten.
 
         1. Enge Begegnungen sind an allen Engstellen (Verleih, Verkehrswege, Hallenumlauf) zu vermeiden. Die gesamte Breite ist zum Ausweichen zu nutzen. Es ist ggf. zu warten, bis der Weg frei ist.
 
@@ -62,9 +64,9 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
 1. ### Preise und Eintritt
 
-    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes "eTicket-System" möglich, bei dem auch zwingend die persönlichen Daten erfasst werden. 
+    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes ‚eTicket System‘ möglich, bei dem auch zwingend die persönlichen Daten erfasst werden. 
 
-    Unser Personal ist ausdrücklich dazu berechtigt die beim Kauf des "eTicket" gemachten Angaben zu kontrollieren.
+    Unser Personal ist ausdrücklich dazu berechtigt die beim Kauf des ‚eTicket‘ gemachten Angaben zu kontrollieren.
 
     Alle in den bisherigen AGB, bzw. Hallenordnung des Eistreff Waldbronn erfassten Punkte bzgl. Zutrittsberechtigung/Eintrittskarten/Eintrittspreise verlieren mit der "Pandemie-Ergänzung" ihre Gültigkeit. 
 
