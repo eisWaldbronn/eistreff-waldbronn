@@ -28,8 +28,8 @@ weight: 50
 #### Registereintrag
 
 Eintragung im Handelsregister.  
-Registergericht Mannheim  
-Registernummer: HRB 12345
+Amtsgericht Mannheim  
+Registernummer: HRB 737072
 
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz  
 Umsatzsteuer-ID:  Musterustid.
