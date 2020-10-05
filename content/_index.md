@@ -23,7 +23,7 @@ In der kalten Jahreszeit ist der Eistreff ein Paradies für Kufenflitzer. Ob Fam
 
 Zwei klimatisierte Eislaufhallen, welche durch eine Passage verbunden sind und eine zeitlich versetzte Eisaufbereitung haben, ermöglichen ein dauerhaftes Eislaufen.
 
-Das Schlittschuhlaufen erlernen oder das eigene Können verbessern: Bei uns können das alle Eislaufbegeisterten und solche, die es werden wollen. Ohne Altersbeschränkung oder sonstige Bedingungen! Kommen Sie zu unseren offenen Laufzeiten, in die Eisdisco oder zum Familienlaufen ins Eistreff – Hauptsache, Sie haben Spaß dabei!
+Das Schlittschuhlaufen erlernen oder das eigene Können verbessern: Bei uns können das alle Eislaufbegeisterten und solche, die es werden wollen. Ohne Altersbeschränkung oder sonstige Bedingungen! Kommen Sie zu unseren offenen Laufzeiten, zum abendlichen Eislaufen mit Musik und LED-Eisfläche oder zum Familienlaufen ins Eistreff – Hauptsache, Sie haben Spaß dabei!
 
 Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflernhilfe aus, mit der das Üben ganz sicher besser klappt.
 
