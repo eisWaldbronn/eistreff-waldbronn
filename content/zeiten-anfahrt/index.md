@@ -37,18 +37,18 @@ Linien: 27, 47 und 115
 ##### Wöchentlich von Freitag bis Sonntag + Mittwoch
 |||
 |-|-|
-| **Freitag** | **15:00 - 23:00** |
-| Standard | 15:00 - 19:00 |
+| **Freitag** | **15:30 - 23:00** |
+| Standard | 15:30 - 18:30 |
 | Abend | 19:00 - 23:00 |
-| **Samstag** | **12:30 - 23:00** |
-| Kurz | 12:30 - 15:00 |
-| Standard | 15:00 - 19:00 |
+| **Samstag** | **13:00 - 23:00** |
+| Kurz | 13:00 - 15:00 |
+| Standard | 15:30 - 18:30 |
 | Abend | 19:00 - 23:00 |
 | **Sonntag** | **10:00 - 18:30** |
 | Kurz | 10:00 - 12:00 |
-| Standard | 12:00 - 16:00 |
-| Abend | 16:00 - 18:30 |
-| **Mittwoch (nur "kleine Halle")** | **18:15 - 22:00** |
+| Standard | 12:30 - 16:00 |
+| Abend | 16:30 - 18:30 |
+| **Mittwoch (nur "kleine Halle")** | **18:30 - 22:00** |
 
 ##### Während den Schulferien
 |||
