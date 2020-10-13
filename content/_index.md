@@ -3,7 +3,7 @@ title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
 hero_headline: Endlich beginnt sie wieder … die EISZEIT
-hero_subheadline: Wir planen am 9. Oktober 2020 unsere ersten öffentlichen Laufzeiten, natürlich unter Beachtung der Corona-Regeln!
+hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
 ---
 
 <!-- {{< cta/bar >}}
