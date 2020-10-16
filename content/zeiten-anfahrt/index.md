@@ -53,13 +53,13 @@ Linien: 27, 47 und 115
 ##### Während den Schulferien
 |||
 |-|-|
-| **Lange Schulferien** | **10:00 - 22:00** |
+| **Weihnachtsferien** | **10:00 - 22:00** |
 | Kurz | 10:00 - 14:00 |
 | Standard | 14:00 - 18:00 |
 | Abend | 18:00 - 22:00 |
-| **Kurze Schulferien** | **15:00 - 22:00** |
-| Standard | 15:00 - 18:00 |
-| Abend | 18:00 - 22:00 |
+| **Herbstferien & Faschingsferien** | **15:00 - 22:00** |
+| Standard | 15:00 - 18:30 |
+| Abend | 19:00 - 22:00 |
 
 {{% /column %}}
 
