@@ -32,7 +32,7 @@ Amtsgericht Mannheim
 Registernummer: HRB 737072
 
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz  
-Umsatzsteuer-ID:  Musterustid.
+Umsatzsteuer-ID: Musterustid.
 
 ## Haftungsausschluss
 
