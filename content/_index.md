@@ -2,8 +2,10 @@
 title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
-hero_headline: Endlich beginnt sie wieder … die EISZEIT
-hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
+hero_headline: Eistreff vorübergehend geschlossen!
+hero_subheadline: Ab Montag, den 2. November 2020
+# hero_headline: Endlich beginnt sie wieder … die EISZEIT
+# hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
 ---
 
 <!-- {{< cta/bar >}}
