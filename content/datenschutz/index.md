@@ -229,6 +229,14 @@ weight: 30
     
     Verlinkungen zu Webseiten Dritter werden dem Nutzer auf unserer Website entweder als reine Serviceleistung oder als Hinweis und zum Zwecke der Bewerbung unserer Partner angeboten. Für die Inhalte, zu denen verlinkt wird, sind die Anbieter der jeweiligen Website selbst verantwortlich, ohne dass die "Eistreff Waldbronn gemeinnützige GmbH" hierfür haftet.
 
+    #### Verlinkung zu unserem Buchungsportal
+    
+    Die im Buchungsportal erfassten persönlichen Daten dienen zum einen einer "Wiederkehr" Möglichkeit wenn diese mit Passwort übermittelt werden. (Von Ihnen übermittelten Passwörter werden sehr hoch verschlüsselt und können nicht zurückübersetzt werden.)
+
+    Zum anderen werden die Adressdaten während der Corona-Schutzmaßnahmen zur Vorhaltung im Falle einer Kontaktnachverfolgung benötigt. Hierzu haben Sie laut Corona-Verordnung des Landes BW §6 Datenverarbeitung (5) zutreffende Angaben zu machen. Fake-Namen sind nicht nur nicht zulässig, diese verstoßen gegen diese Verordnung und führen zum Verfall von Tickets und zum Ausschluss der Veranstaltung/en.
+
+    Wir behalten uns, bis auf Widerruf, vor Ihre E-Mail Adresse/n für Informationen zu unserer Einrichtung zu verwenden. Eine Weitergabe an Externe/Dritte (Ausgenommen Betreiber des Buchungsportals) ist ausgeschlossen. Im Übrigen gelten die oben stehenden Hinweise zum Datenschutz.
+
     #### Änderung unserer Datenschutzbestimmungen
     
     Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
