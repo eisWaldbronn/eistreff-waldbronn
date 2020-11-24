@@ -2,7 +2,6 @@ baseURL = "https://www.eistreff.net/"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "Eistreff Waldbronn"
-theme = "eistreff"
 
 [params]
   company = "Eistreff Waldbronn"
