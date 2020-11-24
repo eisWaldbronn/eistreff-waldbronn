@@ -1,10 +1,19 @@
+<!-- pretier-ignore -->
 {{ $param := .Get 0 }}
+<!-- pretier-ignore -->
 {{ $value := index .Site.Params $param }}
+<!-- pretier-ignore -->
 {{ $prepend := .Get 1 }}
+<!-- pretier-ignore -->
 {{ $apend := .Get 2 }}
 
+<!-- pretier-ignore -->
 {{ if $value }}
-{{ if $prepend }}{{ $prepend | markdownify }}{{ end }}
+<!-- pretier-ignore -->
+{{ if $prepend }} {{ $prepend | markdownify }} {{ end }}
+<!-- pretier-ignore -->
 {{ $value | markdownify }}
+<!-- pretier-ignore -->
 {{ if $apend }}{{ $apend | markdownify }}{{ end }}
+<!-- pretier-ignore -->
 {{ end }}

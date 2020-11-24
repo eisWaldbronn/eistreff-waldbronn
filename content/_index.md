@@ -34,6 +34,7 @@ Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflern
 {{< columns >}}
 
 {{% column %}}
+
 ### Öffentlicher Eislauf
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
@@ -42,19 +43,22 @@ Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es no
 {{% /column %}}
 
 {{% column %}}
+
 ### Verein
 
-Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling. 
+Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling.
 
 [www.erc-waldbronn.de](https://erc-waldbronn.de/)
 {{% /column %}}
 
 {{% column %}}
+
 ### Business
 
-Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle. 
+Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle.
 
 <!-- [Business-Club](/business-club) -->
+
 {{% /column %}}
 
 {{< /columns >}}

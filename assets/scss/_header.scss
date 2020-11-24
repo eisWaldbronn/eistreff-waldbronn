@@ -4,7 +4,7 @@ header {
     justify-content: flex-end;
     position: relative;
     z-index: 2;
-    
+
     nav {
         display: grid;
         grid-auto-flow: column;
@@ -19,7 +19,7 @@ header {
             padding: $link-padding;
             text-decoration: none;
         }
-        
+
         .nav__icon {
             width: 1.4rem;
             padding: 0.25rem 0.5rem;
@@ -31,11 +31,11 @@ header {
     &__logo {
         @include link;
         height: $logo-height - 2;
-        
+
         @include media-phone {
             height: $logo-height - 1;
         }
-        
+
         @include media-tablet {
             height: $logo-height;
         }
@@ -64,7 +64,7 @@ header {
     }
 
     &--mobile-hidden {
-        + .nav__overlay{
+        + .nav__overlay {
             display: none;
         }
     }

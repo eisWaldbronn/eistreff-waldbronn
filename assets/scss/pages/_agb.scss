@@ -8,19 +8,19 @@
         font-weight: 700;
 
         li {
-            h3, h4 {
+            h3,
+            h4 {
                 margin-top: 2.5rem;
             }
-            
+
             p {
                 color: var(--black);
                 font-weight: 400;
                 font-size: 1rem;
             }
-        }  
+        }
     }
 }
-
 
 body.datenschutz,
 body.agb-corona,
@@ -44,7 +44,7 @@ body.agb {
                     font-weight: 400;
                     font-size: 1rem;
                     list-style-type: upper-roman;
-    
+
                     @include media-phone-only {
                         padding-left: 0;
                     }
@@ -76,7 +76,6 @@ body.datenschutz {
     }
 }
 
-
 // body.datenschutz,
 // body.agb-corona,
 // body.agb {
@@ -92,7 +91,7 @@ body.datenschutz {
 //                 h3, h4 {
 //                     margin-top: 2.5rem;
 //                 }
-                
+
 //                 p {
 //                     color: var(--black);
 //                     font-weight: 400;
@@ -106,12 +105,11 @@ body.datenschutz {
 //                     font-weight: 400;
 //                     font-size: 1rem;
 //                     list-style-type: upper-roman;
-    
+
 //                     @include media-phone-only {
 //                         padding-left: 0;
 //                     }
-            
-                    
+
 //                     li > ol,
 //                     li > ul {
 //                         color: var(--black);
@@ -119,7 +117,7 @@ body.datenschutz {
 //                     }
 //                 }
 //             }
-            
+
 //         }
 //     }
 // }

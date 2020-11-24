@@ -1,11 +1,13 @@
 {{ define "main" }}
+<!-- pretier-ignore -->
 
 {{ if .Content }}
+<!-- pretier-ignore -->
+
 {{- partial "hero-image.html" . -}}
-<div class='content'>
-    <!-- {{ partial "entry/content" . }} -->
-    {{ .Content }}
-</div>
+<div class="content">{{ .Content }}</div>
+
 {{ end }}
 
+<!-- pretier-ignore -->
 {{ end }}

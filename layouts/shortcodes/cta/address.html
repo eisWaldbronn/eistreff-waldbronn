@@ -1,6 +1,12 @@
-<a class="cta__icon cta--large"
-   rel="noopener"
-   href="https://www.google.de/maps/dir//Eistreff+Waldbronn,+Ermlis-Allee+1,+76337+Waldbronn">
+<a
+    class="cta__icon cta--large"
+    rel="noopener"
+    href="https://www.google.de/maps/dir//Eistreff+Waldbronn,+Ermlis-Allee+1,+76337+Waldbronn"
+>
     {{ partial "svg/pin.svg" }}
-    <span>{{ .Site.Params.company }}<br>{{ .Site.Params.street }}<br>{{ .Site.Params.city }}</span>
+    <span>
+        {{ .Site.Params.company }}<br />
+        {{ .Site.Params.street }}<br />
+        {{ .Site.Params.city }}
+    </span>
 </a>

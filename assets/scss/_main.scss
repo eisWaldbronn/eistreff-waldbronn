@@ -21,24 +21,29 @@ main {
     .content {
         @include base-container;
         position: relative;
-
-        
     }
 }
 
 @mixin content-bg($rotation, $height) {
     main::before {
-        background: linear-gradient(#{$rotation}, #{$color-transparent} #{$height}, var(--white) #{$height + 0.1});
+        background: linear-gradient(
+            #{$rotation},
+            #{$color-transparent} #{$height},
+            var(--white) #{$height + 0.1}
+        );
     }
 }
 
 @include isHome {
-    @include content-bg($gradient-rotation-home, $main-bg-top-home - $logo-height)
+    @include content-bg(
+        $gradient-rotation-home,
+        $main-bg-top-home - $logo-height
+    );
 }
 
 @include isNotHome {
-    @include content-bg($gradient-rotation, $main-bg-top - $logo-height)
-        
+    @include content-bg($gradient-rotation, $main-bg-top - $logo-height);
+
     .content h1:first-child {
         margin-bottom: 5rem;
     }

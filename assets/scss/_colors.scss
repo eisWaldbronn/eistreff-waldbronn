@@ -15,7 +15,7 @@ $color-transparent: rgba(0, 0, 0, 0);
 
     --black-T50: #{rgba($color-black, 0.5)};
     --black-T30: #{rgba($color-black, 0.3)};
-    
+
     --grey-050: #{scale-color($color-black, $lightness: 95%)};
     --grey-100: #{scale-color($color-black, $lightness: 90%)};
     --grey-200: #{scale-color($color-black, $lightness: 80%)};
@@ -31,5 +31,10 @@ $color-transparent: rgba(0, 0, 0, 0);
     --primary-250: #{scale-color($color-primary, $lightness: -25%)};
     --primary-400: #{scale-color($color-primary, $lightness: -40%)};
 
-    --gradient: linear-gradient(90deg, #{$color-gradient-000} 0%, #{$color-gradient-050} 50%, #{$color-gradient-100} 100%);
+    --gradient: linear-gradient(
+        90deg,
+        #{$color-gradient-000} 0%,
+        #{$color-gradient-050} 50%,
+        #{$color-gradient-100} 100%
+    );
 }

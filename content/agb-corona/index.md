@@ -46,7 +46,7 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
         1. Im Eingangsbereich und an anderen Übergängen, an denen das Händewaschen nicht möglich ist, sind die Handdesinfektionsstationen zu nutzen.
 
         1. Husten und Niesen nur in ein Taschentuch oder alternativ in die Armbeuge (Husten- und Nies-Etikette).
-        Zum Schutz aller Eistreffgäste und der Mitarbeiterinnen und Mitarbeiter bitten wir Sie um die Beachtung der gültigen Regeln und um Ihre aktive Mithilfe!
+           Zum Schutz aller Eistreffgäste und der Mitarbeiterinnen und Mitarbeiter bitten wir Sie um die Beachtung der gültigen Regeln und um Ihre aktive Mithilfe!
 
     1. #### Maßnahmen zur Abstandswahrung
 
@@ -64,11 +64,11 @@ Der Eistreff Waldbronn geht – im Verlauf einer sich abschwächenden Pandemie �
 
 1. ### Preise und Eintritt
 
-    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes ‚eTicket System‘ möglich, bei dem auch zwingend die persönlichen Daten erfasst werden. 
+    Aktuell ist der Eintritt in das Eistreff Waldbronn ausschließlich mit einer reduzierten Anzahl an Gästen und mit einem über unsere Internetseite zu buchendes ‚eTicket System‘ möglich, bei dem auch zwingend die persönlichen Daten erfasst werden.
 
     Unser Personal ist ausdrücklich dazu berechtigt die beim Kauf des ‚eTicket‘ gemachten Angaben zu kontrollieren.
 
-    Alle in den bisherigen AGB, bzw. Hallenordnung des Eistreff Waldbronn erfassten Punkte bzgl. Zutrittsberechtigung/Eintrittskarten/Eintrittspreise verlieren mit der "Pandemie-Ergänzung" ihre Gültigkeit. 
+    Alle in den bisherigen AGB, bzw. Hallenordnung des Eistreff Waldbronn erfassten Punkte bzgl. Zutrittsberechtigung/Eintrittskarten/Eintrittspreise verlieren mit der "Pandemie-Ergänzung" ihre Gültigkeit.
 
 1. ### Aufsicht und Hausrecht
 

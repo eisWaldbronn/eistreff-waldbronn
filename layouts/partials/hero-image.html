@@ -1,8 +1,12 @@
 {{ $image := resources.Get (print "/img/" .Params.hero_image )}}
+<!-- pretier-ignore -->
 {{ $headline := .Params.hero_headline }}
+<!-- pretier-ignore -->
 {{ $subheadline := .Params.hero_subheadline }}
 
+<!-- pretier-ignore -->
 {{ if $image | or $headline | or $subheadline }}
+
 <div class="content hero">
     {{ if $headline }}
     <h1>
@@ -11,14 +15,14 @@
         <span>{{- $subheadline -}}</span>
         {{ end }}
     </h1>
-    {{ end }}
-
-    {{ if $image }}
-    <img class="hero__image"
-         src="{{ $image.RelPermalink }}"
-         alt="{{ .Params.hero_image_alt }}"
-         width="{{ $image.Width }}"
-         height="{{ $image.Height }}">
+    {{ end }} {{ if $image }}
+    <img
+        class="hero__image"
+        src="{{ $image.RelPermalink }}"
+        alt="{{ .Params.hero_image_alt }}"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+    />
     {{ end }}
 </div>
 {{ end }}

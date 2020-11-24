@@ -5,7 +5,7 @@
     margin: 2rem auto 3rem;
     padding: 0.5rem 2.5rem;
     background: var(--grey-050);
-    
+
     @include media-tablet {
         text-align: initial;
         display: grid;
@@ -13,7 +13,7 @@
         column-gap: 1.5rem;
         padding: 0.5rem 1.5rem;
     }
-    
+
     @include media-desktop {
         column-gap: 2rem;
         padding: 0.5rem 2.5rem;
@@ -22,7 +22,7 @@
     &__cta-wrapper {
         text-align: center;
     }
-    
+
     &__cta {
         grid-column: 1 / -1;
         color: var(--white);
@@ -39,7 +39,7 @@
             background: var(--primary-250);
             text-decoration: none;
         }
-    
+
         &:active {
             color: var(--white);
             background: var(--primary-400);
@@ -53,10 +53,9 @@
     }
 
     p:not(.ticket__disclaimer) {
-        margin-bottom: 0;    
+        margin-bottom: 0;
     }
 }
-
 
 .ticket.v2 {
     background: var(--white);

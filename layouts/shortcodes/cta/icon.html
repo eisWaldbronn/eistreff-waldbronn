@@ -1,10 +1,12 @@
 {{- $href := .Get "href" -}}
+<!-- pretier-ignore -->
 {{- $svg := .Get "svg" -}}
+<!-- pretier-ignore -->
 {{- $title := .Get "title" -}}
+<!-- pretier-ignore -->
 {{- $path := print "svg/" $svg ".svg" -}}
 
-<a class="cta__icon"
-   href='{{ $href }}'>
+<a class="cta__icon" href="{{ $href }}">
     {{ partial $path }}
     <span>{{ $title }}</span>
 </a>

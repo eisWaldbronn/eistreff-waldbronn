@@ -10,7 +10,7 @@ footer {
     grid-template-columns: 1fr;
     gap: 2rem;
     align-items: center;
-    
+
     @include media-tablet {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -50,7 +50,7 @@ footer {
             justify-content: initial;
         }
 
-        .nav__icons  {
+        .nav__icons {
             padding: $link-padding;
             padding-top: $link-padding-top + 0.5;
             display: flex;
@@ -63,7 +63,7 @@ footer {
             a {
                 padding: 0.25rem;
             }
-            
+
             svg {
                 width: 1.2rem;
                 margin-left: 1rem;
@@ -82,11 +82,11 @@ footer {
         svg {
             width: auto;
             height: 5rem;
-            
+
             @include media-tablet {
                 height: 4rem;
             }
-            
+
             @include media-desktop {
                 height: 5rem;
             }

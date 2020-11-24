@@ -9,6 +9,6 @@ document.querySelector('.nav__mobile').addEventListener('click', ev => {
 
 window.addEventListener('click', () => {
     if (!NAV_MAIN.classList.contains(NAV_HIDDEN_CLASS)) {
-        NAV_MAIN.classList.add(NAV_HIDDEN_CLASS)
+        NAV_MAIN.classList.add(NAV_HIDDEN_CLASS);
     }
 });
