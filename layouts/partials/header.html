@@ -1,29 +1,28 @@
+{{ $currentPage := . }}
+
 <header>
-    <a class='nav__logo'
-       title="{{ .Site.Title}}"
-       href='{{ .Site.Home.RelPermalink }}'>
-        <span>{{ .Site.Title }}</span>
-        {{ partial "svg/logo.svg" }}
-    </a>
     <nav>
-        <a href="#"
-           class="nav__mobile">&#9776 Menu</a>
-        <div class="nav__main nav--mobile-hidden">
-            <a href="/">Home</a>
+        <a
+            class="hmenu__logo"
+            title="{{ .Site.Title}}"
+            href="{{ .Site.Home.RelPermalink }}"
+        >
+            <span class="hmenu__title">{{ .Site.Title }}</span>
+            {{ partial "svg/logo.svg" }}
+        </a>
+        <div class="hmenu">
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">
-                {{ $text := print .Name | safeHTML }}
-                {{ $text }}
+            <a class="hmenu__link {{ if $currentPage.IsMenuCurrent "main" . }}hmenu--active{{ end }}" href="{{ .URL }}">
+                {{ print .Name | safeHTML }}
             </a>
             {{ end }}
-            <a class="nav__icon"
-               href="https://www.facebook.com/ETWaldbronn/">{{ partial "svg/facebook.svg" }}</a>
-            <a class="nav__icon"
-               href="https://www.instagram.com/eistreff_waldbronn_ggmbh/">{{ partial "svg/instagram.svg" }}</a>
-            <div class="nav__snow">
-                {{ partial "svg/snow.svg" }}
-            </div>
+
+            {{ range .Site.Menus.social }}
+            <a class="hmenu__link hmenu--social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
+                {{ $svg := print .Pre | safeHTML }}
+                {{ partial (print "svg/" $svg) }}
+            </a>
+            {{ end }}
         </div>
-        <div class="nav__overlay"></div>
     </nav>
 </header>

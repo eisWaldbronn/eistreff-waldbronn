@@ -1,21 +1,12 @@
 ---
 title: Home
+menu: main
+weight: 1
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
 hero_headline: Mietet eure private Eiszeit!
 hero_subheadline: Die Eishallen können zum Individualsport unter Beachtung der Corona-Auflagen gemietet werden.
-# hero_headline: Endlich beginnt sie wieder … die EISZEIT
-# hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
 ---
-
-<!-- {{< cta/bar >}}
-  {{< cta/icon href="https://eistreff.ticketkauf.me" svg="ticket" title="eTicket kaufen" >}}
-  {{< cta/icon href="/events" svg="time" title="Öffnungszeiten" >}}
-  {{< cta/icon href="/events" svg="euro" title="Preise" >}}
-  {{< cta/icon href="/events" svg="route" title="Anfahrt" >}}
-{{< /cta/bar >}} -->
-
-{{< cta/e-ticket >}}
 
 ## Das ultimative Eislaufvergnügen
 
@@ -29,36 +20,18 @@ Das Schlittschuhlaufen erlernen oder das eigene Können verbessern: Bei uns kön
 
 Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflernhilfe aus, mit der das Üben ganz sicher besser klappt.
 
-{{< picto-bar >}}
-
-{{< columns >}}
-
-{{% column %}}
-
 ### Öffentlicher Eislauf
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
 
 [Preise](/preise)
-{{% /column %}}
-
-{{% column %}}
 
 ### Verein
 
 Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling.
 
 [www.erc-waldbronn.de](https://erc-waldbronn.de/)
-{{% /column %}}
-
-{{% column %}}
 
 ### Business
 
 Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle.
-
-<!-- [Business-Club](/business-club) -->
-
-{{% /column %}}
-
-{{< /columns >}}
