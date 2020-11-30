@@ -1,0 +1,9 @@
+{{ $phone := .Site.Params.phone }}
+<!-- disable-prettier -->
+{{ $phoneInline := replace $phone "/" "" }}
+<!-- disable-prettier -->
+{{ $phoneInline := replace $phoneInline "07243" "+497243" }}
+<!-- disable-prettier -->
+{{ $phoneInline := replace $phoneInline " " "" }}
+
+<a href="tel:{{ $phoneInline }}" target="_blank" rel="noopener">{{ $phone }}</a>

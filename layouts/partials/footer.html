@@ -1,39 +1,25 @@
-<!-- prettier-ignore -->
-{{ $opts := dict "noComments" true "minified" true "compact" true }}
-{{- $linkHandler := resources.Get "ts/external-links.ts" | babel $opts -}}
-{{- $typescript := resources.Get "ts/main-nav.ts" | babel $opts -}}
-{{ $script := slice $typescript $linkHandler | resources.Concat "js/script.js" | minify | fingerprint }}
-
 <footer>
-    <address>
-        <p><b>{{ .Site.Params.company }}</b></p>
-        <p>{{ .Site.Params.street }}<br />{{ .Site.Params.city }}</p>
-        <p>
-            Telefon: {{ .Site.Params.phone }}<br />
-            E-Mail: {{ .Site.Params.mail | markdownify }}
-        </p>
-    </address>
-    <div class="logo">{{ partial "svg/logo.svg" }}</div>
-    <nav>
-        {{ range .Site.Menus.footer }}
-        <a href="{{ .URL }}">
-            {{ $text := print .Name | safeHTML }} {{ $text }}
-        </a>
-        {{ end }}
-        <span class="nav__icons">
-            <a href="https://www.facebook.com/ETWaldbronn/">
-                {{ partial "svg/facebook.svg" }}
-            </a>
-            <a href="https://www.instagram.com/eistreff_waldbronn_ggmbh/">
-                {{ partial "svg/instagram.svg" }}
-            </a>
-        </span>
-    </nav>
-</footer>
+    <div class="footer">
+        {{- partial "address" . -}}
 
-<script
-    type="text/javascript"
-    src="{{ $script.Permalink }}"
-    integrity="{{ $script.Data.Integrity }}"
-    defer
-></script>
+        <div class="fmenu__logo">{{ partial "svg/logo.svg" }}</div>
+
+        <nav class="fmenu">
+            {{ range .Site.Menus.footer }}
+            <a class="fmenu__link" href="{{ .URL }}">
+                {{ $text := print .Name | safeHTML }} {{ $text }}
+            </a>
+            {{ end }}
+
+            <div class="fmenu__socials">
+                {{ range .Site.Menus.social }}
+                <!-- prettier-ignore -->
+                <a class="fmenu__link fmenu--social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
+                    {{ $svg := print .Pre | safeHTML }}
+                    {{ partial (print "svg/" $svg) }}
+                </a>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</footer>

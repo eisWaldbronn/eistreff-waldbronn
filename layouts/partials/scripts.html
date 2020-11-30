@@ -1,0 +1,12 @@
+<!-- prettier-ignore -->
+{{ $opts := dict "noComments" true "minified" true "compact" true }}
+{{- $linkHandler := resources.Get "ts/external-links.ts" | babel $opts -}}
+{{- $typescript := resources.Get "ts/main-nav.ts" | babel $opts -}}
+{{ $script := slice $typescript $linkHandler | resources.Concat "js/script.js" | minify | fingerprint }}
+
+<script
+    type="text/javascript"
+    src="{{ $script.Permalink }}"
+    integrity="{{ $script.Data.Integrity }}"
+    defer
+></script>
