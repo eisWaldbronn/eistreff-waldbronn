@@ -30,7 +30,6 @@ footer {
     @include media-tablet {
         grid-template-columns: auto 1fr auto;
     }
-
 }
 
 .fmenu {
@@ -38,7 +37,6 @@ footer {
     align-items: flex-end;
     flex-flow: wrap;
     justify-content: center;
-  
 
     &__logo {
         display: none;
@@ -66,7 +64,7 @@ footer {
         &__logo {
             width: 15rem;
             display: flex;
-    
+
             svg > * {
                 fill: var(--white);
             }

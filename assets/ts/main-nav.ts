@@ -13,7 +13,6 @@
 //     }
 // });
 
-
 const BODY = document.querySelector<HTMLElement>('body');
 const NAV_MOBILE = document.querySelector<HTMLElement>('.hmenu__mobile');
 const NAV_BURGER = document.querySelector<HTMLElement>('.hmenu__burger');
