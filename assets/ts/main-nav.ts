@@ -12,3 +12,15 @@
 //         NAV_MAIN.classList.add(NAV_HIDDEN_CLASS);
 //     }
 // });
+
+
+const BODY = document.querySelector<HTMLElement>('body');
+const NAV_MOBILE = document.querySelector<HTMLElement>('.hmenu__mobile');
+const NAV_BURGER = document.querySelector<HTMLElement>('.hmenu__burger');
+const NAV = document.querySelector<HTMLElement>('.hmenu');
+
+NAV_MOBILE.addEventListener('click', () => {
+    NAV.classList.toggle('hmenu--open');
+    BODY.classList.toggle('hmenu--body-open');
+    NAV_BURGER.classList.toggle('hmenu--burger-open');
+});

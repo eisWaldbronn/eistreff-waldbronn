@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer">
+    <div class="footer__content">
         {{- partial "address" . -}}
 
         <div class="fmenu__logo">{{ partial "svg/logo.svg" }}</div>
@@ -14,7 +14,7 @@
             <div class="fmenu__socials">
                 {{ range .Site.Menus.social }}
                 <!-- prettier-ignore -->
-                <a class="fmenu__link fmenu--social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
+                <a class="fmenu__social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
                     {{ $svg := print .Pre | safeHTML }}
                     {{ partial (print "svg/" $svg) }}
                 </a>

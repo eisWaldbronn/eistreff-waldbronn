@@ -1,108 +1,18 @@
 footer {
     @include base-container-new;
-    // @include base-container;
     // Slideout-Footer ganz unten fixieren
     position: sticky;
     bottom: 0;
     left: 0;
     padding: 1.5rem 0;
     color: var(--white);
-    // // display: grid;
-    // // grid-template-columns: 1fr;
-    // // gap: 2rem;
-    // align-items: center;
-
-    // @include media-tablet {
-    //     grid-template-columns: repeat(3, 1fr);
-    // }
-
-    // a:not(adress) {
-    //     @include link;
-    //     padding: $link-padding;
-    //     text-decoration: none;
-    // }
-
-    // address {
-    //     font-size: 0.8rem;
-    //     font-style: normal;
-    //     color: var(--grey-300);
-
-    //     @include media-tablet-only {
-    //         text-align: center;
-    //     }
-
-    //     h4 {
-    //         margin-top: 0;
-    //     }
-
-    //     a {
-    //         padding: 0;
-    //     }
-    // }
-
-    // nav {
-    //     display: flex;
-    //     align-items: flex-end;
-    //     flex-flow: wrap;
-    //     justify-content: center;
-
-    //     @include media-tablet {
-    //         flex-flow: column;
-    //         justify-content: initial;
-    //     }
-
-    //     .nav__icons {
-    //         padding: $link-padding;
-    //         padding-top: $link-padding-top + 0.5;
-    //         display: flex;
-
-    //         @include media-tablet-only {
-    //             width: 100%;
-    //             justify-content: center;
-    //         }
-
-    //         a {
-    //             padding: 0.25rem;
-    //         }
-
-    //         svg {
-    //             width: 1.2rem;
-    //             margin-left: 1rem;
-    //         }
-    //     }
-    // }
-
-    // .logo {
-    //     display: flex;
-    //     justify-items: center;
-
-    //     @include media-tablet-only {
-    //         display: none;
-    //     }
-
-    //     svg {
-    //         width: auto;
-    //         height: 5rem;
-
-    //         @include media-tablet {
-    //             height: 4rem;
-    //         }
-
-    //         @include media-desktop {
-    //             height: 5rem;
-    //         }
-    //     }
-    // }
 }
-.footer {
+
+.footer__content {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
     place-items: center;
-
-    @include media-tablet {
-        grid-template-columns: auto 1fr auto;
-    }
 
     a {
         color: var(--white);
@@ -116,6 +26,11 @@ footer {
     address {
         font-size: 0.8rem;
     }
+
+    @include media-tablet {
+        grid-template-columns: auto 1fr auto;
+    }
+
 }
 
 .fmenu {
@@ -123,25 +38,15 @@ footer {
     align-items: flex-end;
     flex-flow: wrap;
     justify-content: center;
-
-    @include media-tablet {
-        flex-flow: column;
-        justify-content: initial;
-    }
+  
 
     &__logo {
-        width: 15rem;
-        display: flex;
-
-        svg > * {
-            fill: var(--white);
-        }
+        display: none;
     }
 
+    &__social,
     &__link {
         padding: 0.3rem 0.5rem;
-        // padding: 0.5rem 1rem;
-        // text-decoration: none;
     }
 
     &__socials {
@@ -149,8 +54,29 @@ footer {
         margin-top: 0.5rem;
     }
 
-    &--social {
+    &__social {
         display: flex;
         width: 1.4rem;
+    }
+
+    @include media-tablet {
+        flex-flow: column;
+        justify-content: initial;
+
+        &__logo {
+            width: 15rem;
+            display: flex;
+    
+            svg > * {
+                fill: var(--white);
+            }
+        }
+    }
+
+    @include media-tablet-only {
+        &__socials {
+            width: 100%;
+            justify-content: center;
+        }
     }
 }

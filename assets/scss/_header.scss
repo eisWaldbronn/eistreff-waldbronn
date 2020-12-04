@@ -1,3 +1,19 @@
+@mixin hidden-text {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+@mixin hover-animation {
+    &::before {
+        transform: scale3d(1, 1, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 0.3s;
+    }
+}
+
 header {
     @include base-container-new;
     grid-column: 1 / -1;
@@ -5,57 +21,31 @@ header {
 
     nav {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         position: relative;
         padding: 0.5rem 0;
     }
 }
 
 .hmenu {
-    // display: grid;
-    // grid-auto-flow: column;
-    // gap: 0.5rem;
-    // flex: 1;
-    // align-items: flex-start;
-    // justify-content: flex-end;
-    // position: relative;
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
-
+   
     &__logo {
+        z-index: 10;
         width: 12rem;
         display: flex;
-        // height: $logo-height - 2;
-
-        // @include media-phone {
-        //     height: $logo-height - 1;
-        // }
-
-        // @include media-tablet {
-        //     height: $logo-height;
-        // }
-
-        // svg {
-        //     // width: auto;
-        //     // height: 100%;
-        // }
+        margin-right: 2rem;
     }
 
-    &__title {
-        visibility: hidden;
-        position: absolute;
-        height: 0;
-        width: 0;
-        opacity: 0;
-    }
-
+    &__social,
     &__link {
-        padding: 0.5rem 1rem;
-        margin-left: 0.5rem;
+        padding: 0.5rem 0.8rem;
         text-decoration: none;
         position: relative;
+        margin: 0 0 0 0.5rem;
 
         &::before {
             content: '';
@@ -70,117 +60,154 @@ header {
         }
     }
 
-    &--active,
-    &__link:hover:not([class$='--social']) {
-        &::before {
-            transform: scale3d(1, 1, 1);
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-            transition-duration: 0.3s;
+    &__link:hover {
+        @include hover-animation;
+    }
+
+    &__social {
+        display: flex;
+        margin: 0;
+    }
+
+    &__mobile {
+        display: none;
+    }
+
+    &__burger {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin-bottom: 0.3em;
+        // Feste Höhe und Breite wegen Animation
+        width: 1.5rem;
+        height: 0.9rem;
+        
+        * {
+            height: 2px;
+            border-radius: 2px;
+            background: currentColor;
+            transform-origin: left center;
+            opacity: 0.4;
+            transform: scaleX(1);
+            transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
         }
     }
 
-    &--social {
-        display: flex;
-        width: 1.4rem;
-        // width: 1.4rem;
-        // padding: 0.25rem 0.5rem;
-        // height: 1.5rem;
+
+    &--hidden {
+        @include hidden-text;
+    }
+
+    &--active {
+        @include hover-animation;
+    }
+
+    &--burger-open {
+        // Werte sind fest für die aktuelle Breite des Menü-Icons
+        * {
+            &:nth-child(1) {
+                transform: translate(0.3rem, -0.03rem) rotate(45deg) scaleX(0.8)
+            }
+    
+            &:nth-child(2) {
+                transform: scaleX(0);
+                opacity: 0;
+            }
+    
+            &:nth-child(3) {
+                transform: translate(0.3rem, 0.03rem) rotate(-45deg) scaleX(0.8);
+            }
+        }
+    }
+
+    // Scrollen bei geöffnetem Menü unterbinden
+    &--body-open {
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    // Spacer für Mobile-Menu "Folgt uns auf"
+    > span {
+        display: none;
+    }
+
+    // Sonderfall Home-Link in zwischengröße nicht anzeigen
+    @media (max-width: 1000px) and (min-width: 899px)  {
+        > *:first-child {
+            display: none;
+        }
+    }
+
+    // Ansicht und Modis nur für die Tablet-Version
+    @include media-desktop {
+        &__social {
+            width: 1.4rem;
+
+            span {
+                @include hidden-text;
+            }
+        }
+    }
+
+    // Ansicht und Modis nur für die Desktop-Version
+    @include media-desktop-only {
+        opacity: 0;
+        z-index: -10;
+        position: fixed;
+
+        &__link {
+            margin: 0 0 1rem;
+        }
+        
+        &__mobile {
+            display: initial;
+            z-index: 10;
+            align-self: center;
+            cursor: pointer;
+            padding: 0.5rem;
+            background: transparent;
+            border: 0;
+            outline: 0;
+            font-size: 0.7rem;
+            display: flex;
+            flex-flow: column;
+            place-items: center;
+    
+            &:focus,
+            &:hover {
+                color: var(--primary);
+            }
+        }
+
+        &__social {
+            svg {
+                margin-right: 0.5rem;
+                width: 1.4rem;
+            }
+        }
+
+        &--open {
+            flex-flow: column;
+            background: white;
+            z-index: 9;
+            left: 0;
+            top: 0;
+            padding: 5rem 0 0;
+            width: 280px;
+            height: calc(100% - 5rem);
+            width: 100%;
+            place-items: center;
+            justify-content: center;
+            
+            opacity: 1;
+            transition: opacity 0.25s ease-in-out;
+
+            > span {
+                height: 5rem;
+                margin-bottom: 0.5rem;
+                align-items: flex-end;
+                display: flex;
+            }
+        }
     }
 }
-
-// .nav {
-//     &__logo {
-//         @include link;
-//         height: $logo-height - 2;
-
-//         @include media-phone {
-//             height: $logo-height - 1;
-//         }
-
-//         @include media-tablet {
-//             height: $logo-height;
-//         }
-
-//         span {
-//             visibility: hidden;
-//             position: absolute;
-//             height: 0;
-//             width: 0;
-//             opacity: 0;
-//         }
-
-//         svg {
-//             width: auto;
-//             height: 100%;
-//         }
-//     }
-
-//     &__overlay {
-//         position: fixed;
-//         top: 0;
-//         left: 0;
-//         width: 100vw;
-//         height: 100vh;
-//         background: var(--black-T50);
-//     }
-
-//     &--mobile-hidden {
-//         + .nav__overlay {
-//             display: none;
-//         }
-//     }
-
-//     &__snow {
-//         color: var(--white);
-//         position: absolute;
-//         bottom: -6rem;
-//         right: -11rem;
-//         height: 32rem;
-//         width: auto;
-//         transform: rotateZ(-15deg);
-//         opacity: 0.2;
-
-//         svg {
-//             width: auto;
-//             height: 100%;
-//         }
-//     }
-
-//     &__main {
-//         display: contents;
-
-//         @include media-desktop-only {
-//             position: fixed;
-//             overflow: hidden;
-//             top: 0;
-//             right: 0;
-//             display: flex;
-//             flex-direction: column;
-//             text-align: center;
-//             z-index: 100;
-//             background: var(--primary);
-//             padding: 1rem;
-//             height: 100vh;
-//             width: 30vw;
-//             min-width: 180px;
-
-//             a {
-//                 padding: 1rem;
-//             }
-//         }
-//     }
-
-//     @include media-desktop {
-//         &__snow,
-//         &__overlay,
-//         &__mobile {
-//             display: none;
-//         }
-//     }
-
-//     @include media-desktop-only {
-//         &--mobile-hidden {
-//             display: none;
-//         }
-//     }
-// }
