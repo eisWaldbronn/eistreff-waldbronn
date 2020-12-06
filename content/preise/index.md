@@ -1,11 +1,12 @@
 ---
 title: Preise
-no_title: true
+date: 2020-08-22T11:00:00+01:00
 draft: false
+headline: Eintrittspreise
+subheadline: Für das Eislaufvergnügen in Waldbronn
 menu: main
 weight: 20
 hero_image: eistreff-eingang.jpg
-hero_image_alt: Eingang Eistreff Waldbronn
 ---
 
 ### Eintrittspreise für das Eislaufvergnügen in Waldbronn

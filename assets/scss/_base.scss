@@ -17,6 +17,9 @@ h4 {
 }
 
 h1 {
+    color: var(--white);
+    margin: 2rem 0;
+
     // color: var(--primary);
     // color: var(--grey-050);
     // font-size: $font-h1-size-mobile;
@@ -24,6 +27,10 @@ h1 {
     // @include media-phone {
     //     font-size: $font-h1-size;
     // }
+}
+
+.home h1 {
+    margin: 4rem 0;
 }
 
 h2 {
