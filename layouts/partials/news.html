@@ -1,0 +1,5 @@
+<ul class="news">
+    {{ range first 2 (where .Site.RegularPages.ByWeight "Section" "news" ) }}
+        <li>{{ .Content }}</li>
+    {{ end }}
+</ul>
