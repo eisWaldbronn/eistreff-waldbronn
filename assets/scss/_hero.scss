@@ -1,111 +1,115 @@
-.content.hero {
-    padding: $base-padding 0;
-
-    h1 {
-        display: block;
-        margin: 0.5rem 0;
-
-        @include media-tablet-only {
-            text-align: center;
-        }
-
-        @include media-tablet {
-            margin: 1rem 30% 1rem 0;
-            font-size: 1.7rem;
-        }
-
-        @include media-desktop {
-            margin: 0.5rem 30% 0.5rem 0;
-            font-size: 2rem;
-        }
-
-        span {
-            display: block;
-        }
-
-        span:last-child {
-            font-size: 1rem;
-            border-top: 1px solid;
-            // color: var(--grey-300);
-            font-weight: 400;
-            padding-top: 0.5rem;
-        }
-    }
+.hero {
+    grid-column: 1/-1;
 }
 
-@function bg-single-gradient($rotation, $pos, $color1, $color2) {
-    @return linear-gradient(
-        #{$rotation},
-        #{$color-transparent} #{$pos},
-        #{$color1} #{$pos + 0.1},
-        #{$color2} #{$pos + $gradient-width},
-        #{$color-transparent} #{$pos + $gradient-width + 0.1}
-    );
-}
-@mixin bg-gradient($rotation, $pos1, $pos2, $pos3) {
-    background: var(--gradient),
-        bg-single-gradient($rotation, $pos1, $gradient-dark, $gradient-mid),
-        bg-single-gradient($rotation, $pos2, $gradient-mid, $gradient-light),
-        bg-single-gradient($rotation, $pos3, $gradient-dark, $gradient-mid);
-}
-@mixin hero-image-base($height, $rotation, $pos1, $pos2, $pos3) {
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        width: 100%;
-        opacity: 0.4;
-        background-blend-mode: overlay;
-        height: $height;
-        @include bg-gradient($rotation, $pos1, $pos2, $pos3);
-    }
-}
+// .content.hero {
+//     padding: $base-padding 0;
 
-@include isHome {
-    @include hero-image-base(
-        $main-bg-top-home + 2 * $base-padding,
-        $gradient-rotation-home,
-        $gradient-pos-1,
-        $gradient-pos-2-home,
-        $gradient-pos-3-home
-    );
+//     h1 {
+//         display: block;
+//         margin: 0.5rem 0;
 
-    .hero {
-        &__image {
-            display: none;
+//         @include media-tablet-only {
+//             text-align: center;
+//         }
 
-            @include media-tablet {
-                display: block;
-                position: absolute;
-                top: -$logo-height - 1;
-                right: 0;
-                z-index: -2;
-                opacity: 0.4;
-                clip-path: polygon(50% 0, 100% 0%, 75% 100%, 25% 100%);
-                height: $main-bg-top-home;
-                width: auto;
-            }
+//         @include media-tablet {
+//             margin: 1rem 30% 1rem 0;
+//             font-size: 1.7rem;
+//         }
 
-            @include media-desktop {
-                top: -$logo-height - 2;
-                clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
-            }
-        }
-    }
-}
+//         @include media-desktop {
+//             margin: 0.5rem 30% 0.5rem 0;
+//             font-size: 2rem;
+//         }
 
-@include isNotHome {
-    @include hero-image-base(
-        $main-bg-top + 2 * $base-padding,
-        $gradient-rotation,
-        $gradient-pos-1,
-        $gradient-pos-2,
-        $gradient-pos-3
-    );
+//         span {
+//             display: block;
+//         }
 
-    .hero {
-        &__image {
-            border-radius: 15px;
-        }
-    }
-}
+//         span:last-child {
+//             font-size: 1rem;
+//             border-top: 1px solid;
+//             // color: var(--grey-300);
+//             font-weight: 400;
+//             padding-top: 0.5rem;
+//         }
+//     }
+// }
+
+// @function bg-single-gradient($rotation, $pos, $color1, $color2) {
+//     @return linear-gradient(
+//         #{$rotation},
+//         #{$color-transparent} #{$pos},
+//         #{$color1} #{$pos + 0.1},
+//         #{$color2} #{$pos + $gradient-width},
+//         #{$color-transparent} #{$pos + $gradient-width + 0.1}
+//     );
+// }
+// @mixin bg-gradient($rotation, $pos1, $pos2, $pos3) {
+//     background: var(--gradient),
+//         bg-single-gradient($rotation, $pos1, $gradient-dark, $gradient-mid),
+//         bg-single-gradient($rotation, $pos2, $gradient-mid, $gradient-light),
+//         bg-single-gradient($rotation, $pos3, $gradient-dark, $gradient-mid);
+// }
+// @mixin hero-image-base($height, $rotation, $pos1, $pos2, $pos3) {
+//     &:before {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         width: 100%;
+//         opacity: 0.4;
+//         background-blend-mode: overlay;
+//         height: $height;
+//         @include bg-gradient($rotation, $pos1, $pos2, $pos3);
+//     }
+// }
+
+// @include isHome {
+//     @include hero-image-base(
+//         $main-bg-top-home + 2 * $base-padding,
+//         $gradient-rotation-home,
+//         $gradient-pos-1,
+//         $gradient-pos-2-home,
+//         $gradient-pos-3-home
+//     );
+
+//     .hero {
+//         &__image {
+//             display: none;
+
+//             @include media-tablet {
+//                 display: block;
+//                 position: absolute;
+//                 top: -$logo-height - 1;
+//                 right: 0;
+//                 z-index: -2;
+//                 opacity: 0.4;
+//                 clip-path: polygon(50% 0, 100% 0%, 75% 100%, 25% 100%);
+//                 height: $main-bg-top-home;
+//                 width: auto;
+//             }
+
+//             @include media-desktop {
+//                 top: -$logo-height - 2;
+//                 clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
+//             }
+//         }
+//     }
+// }
+
+// @include isNotHome {
+//     @include hero-image-base(
+//         $main-bg-top + 2 * $base-padding,
+//         $gradient-rotation,
+//         $gradient-pos-1,
+//         $gradient-pos-2,
+//         $gradient-pos-3
+//     );
+
+//     .hero {
+//         &__image {
+//             border-radius: 15px;
+//         }
+//     }
+// }

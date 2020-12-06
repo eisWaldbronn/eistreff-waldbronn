@@ -1,11 +1,11 @@
 ---
 title: Home
+date: 2020-08-22T11:00:00+01:00
+draft: false
+headline: Mietet eure private Eiszeit!
+subheadline: Die Eishallen können zum Individualsport unter Beachtung der Corona-Auflagen gemietet werden.
 menu: main
 weight: 1
-hero_image: eistreff.png
-hero_image_alt: Eistreff Waldbronn
-hero_headline: Mietet eure private Eiszeit!
-hero_subheadline: Die Eishallen können zum Individualsport unter Beachtung der Corona-Auflagen gemietet werden.
 ---
 
 ## Das ultimative Eislaufvergnügen

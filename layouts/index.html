@@ -1,8 +1,6 @@
 {{ define "main" }}
     {{ if .Content }}
-        {{- partial "hero-image.html" . -}}
-
-        {{- partial "home-news.html" . -}}
+        {{ partial "hero" . }}
 
         {{ .Content }}
     {{ end }}

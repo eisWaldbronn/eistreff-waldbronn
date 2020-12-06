@@ -1,0 +1,24 @@
+{{ $headline := .Params.headline }}
+{{ $subheadline := .Params.subheadline }}
+
+<div class="hero">
+    <h1>
+        {{ if $headline }}
+            {{ $headline }}
+            {{ else }}
+            {{ .Title }}
+        {{ end }}
+    </h1>
+
+    {{ if $subheadline }}
+        <p>{{ $subheadline }}</p>
+    {{ end }}
+
+    {{ if .IsHome }}
+        {{ partial "home-news" . }}
+
+        {{ else if .Params.hero_image }}
+
+        {{ partial "hero-image" . }}
+    {{ end }}
+</div>

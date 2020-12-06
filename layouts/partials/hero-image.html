@@ -1,25 +1,12 @@
-{{ $image := resources.Get (print "/img/" .Params.hero_image ) }}
-{{ $headline := .Params.hero_headline }}
-{{ $subheadline := .Params.hero_subheadline }}
+{{ if .Params.hero_image }}
+    {{ $image := resources.Get (print "img/" .Params.hero_image) }}
+    {{ $image_alt := cond (isset .Params "hero_image_alt") (.Params.hero_image_alt) (print .Site.Title " | " .Title) }}
 
-{{ if $image | or $headline | or $subheadline }}
-    <div class="content hero">
-        {{ if $headline }}
-            <h1>
-                <span>{{- $headline -}}</span>
-                {{ if $subheadline }}
-                    <span>{{- $subheadline -}}</span>
-                {{ end }}
-            </h1>
-        {{ end }}
-        {{ if $image }}
-            <img
-                class="hero__image"
-                src="{{ $image.RelPermalink }}"
-                alt="{{ .Params.hero_image_alt }}"
-                width="{{ $image.Width }}"
-                height="{{ $image.Height }}"
-            />
-        {{ end }}
-    </div>
+    <img
+        class="hero__image"
+        src="{{ $image.RelPermalink }}"
+        alt="{{ $image_alt }}"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+    />
 {{ end }}
