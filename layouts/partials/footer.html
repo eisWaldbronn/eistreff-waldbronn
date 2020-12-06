@@ -6,18 +6,21 @@
 
         <nav class="fmenu">
             {{ range .Site.Menus.footer }}
-            <a class="fmenu__link" href="{{ .URL }}">
-                {{ $text := print .Name | safeHTML }} {{ $text }}
-            </a>
+                <a class="fmenu__link" href="{{ .URL }}">
+                    {{ $text := print .Name | safeHTML }} {{ $text }}
+                </a>
             {{ end }}
 
             <div class="fmenu__socials">
                 {{ range .Site.Menus.social }}
-                <!-- prettier-ignore -->
-                <a class="fmenu__social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
-                    {{ $svg := print .Pre | safeHTML }}
-                    {{ partial (print "svg/" $svg) }}
-                </a>
+                    <a
+                        class="fmenu__social"
+                        href="{{ .URL }}"
+                        title="{{ print .Name | safeHTML }}"
+                    >
+                        {{ $svg := print .Pre | safeHTML }}
+                        {{ partial (print "svg/" $svg) }}
+                    </a>
                 {{ end }}
             </div>
         </nav>

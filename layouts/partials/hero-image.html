@@ -1,28 +1,25 @@
-{{ $image := resources.Get (print "/img/" .Params.hero_image )}}
-<!-- pretier-ignore -->
+{{ $image := resources.Get (print "/img/" .Params.hero_image ) }}
 {{ $headline := .Params.hero_headline }}
-<!-- pretier-ignore -->
 {{ $subheadline := .Params.hero_subheadline }}
 
-<!-- pretier-ignore -->
 {{ if $image | or $headline | or $subheadline }}
-
-<div class="content hero">
-    {{ if $headline }}
-    <h1>
-        <span>{{- $headline -}}</span>
-        {{ if $subheadline }}
-        <span>{{- $subheadline -}}</span>
+    <div class="content hero">
+        {{ if $headline }}
+            <h1>
+                <span>{{- $headline -}}</span>
+                {{ if $subheadline }}
+                    <span>{{- $subheadline -}}</span>
+                {{ end }}
+            </h1>
         {{ end }}
-    </h1>
-    {{ end }} {{ if $image }}
-    <img
-        class="hero__image"
-        src="{{ $image.RelPermalink }}"
-        alt="{{ .Params.hero_image_alt }}"
-        width="{{ $image.Width }}"
-        height="{{ $image.Height }}"
-    />
-    {{ end }}
-</div>
+        {{ if $image }}
+            <img
+                class="hero__image"
+                src="{{ $image.RelPermalink }}"
+                alt="{{ .Params.hero_image_alt }}"
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+            />
+        {{ end }}
+    </div>
 {{ end }}

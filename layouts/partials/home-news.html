@@ -1,6 +1,5 @@
 <ul>
-    <!-- prettier-ignore -->
     {{ range first 2 (where .Site.RegularPages.ByWeight "Section" "home-news" ) }}
-    <li>{{ .Content }}</li>
+        <li>{{ .Content }}</li>
     {{ end }}
 </ul>

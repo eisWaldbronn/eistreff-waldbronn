@@ -4,7 +4,7 @@
     <nav>
         <a
             class="hmenu__logo"
-            title="{{ .Site.Title}}"
+            title="{{ .Site.Title }}"
             href="{{ .Site.Home.RelPermalink }}"
         >
             <span class="hmenu--hidden">{{ .Site.Title }}</span>
@@ -17,22 +17,29 @@
                 <span></span>
                 <span></span>
             </span>
-			<span>{{ .Site.Params.nav_mobile_menu }}</span>
+            <span>{{ .Site.Params.nav_mobile_menu }}</span>
         </button>
-        
+
         <div class="hmenu">
             {{ range .Site.Menus.main }}
-            <a class="hmenu__link {{ if $currentPage.IsMenuCurrent "main" . }}hmenu--active{{ end }}" href="{{ .URL }}">
-                {{ print .Name | safeHTML }}
-            </a>
+                <a
+                    class="hmenu__link {{ if $currentPage.IsMenuCurrent "main" . }}hmenu--active{{ end }}"
+                    href="{{ .URL }}"
+                >
+                    {{ print .Name | safeHTML }}
+                </a>
             {{ end }}
             <span>{{ .Site.Params.nav_follow_us }}</span>
             {{ range .Site.Menus.social }}
-            <a class="hmenu__social" href="{{ .URL }}" title="{{ print .Name | safeHTML }}">
-                {{ $svg := print .Pre | safeHTML }}
-                {{ partial (print "svg/" $svg) }}
-                <span>{{ print .Name | safeHTML }}</span>
-            </a>
+                <a
+                    class="hmenu__social"
+                    href="{{ .URL }}"
+                    title="{{ print .Name | safeHTML }}"
+                >
+                    {{ $svg := print .Pre | safeHTML }}
+                    {{ partial (print "svg/" $svg) }}
+                    <span>{{ print .Name | safeHTML }}</span>
+                </a>
             {{ end }}
         </div>
     </nav>

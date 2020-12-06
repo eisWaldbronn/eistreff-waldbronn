@@ -1,13 +1,13 @@
 {{ define "main" }}
-<div class="content">
-    {{ if (not (isset .Params "no_title")) | or (not (.Params.no_title)) }}
-    <!-- pretier-ignore -->
-    {{ if .Params.alternativ_title }}
-    <h1>{{ .Params.alternativ_title }}</h1>
-    {{ else if .Title }}
-    <h1>{{ .Title }}</h1>
-    {{ end }} {{ end }}
-    <!-- pretier-ignore -->
-    {{- partial "hero-image.html" . -}} {{ .Content }}
-</div>
+    <div class="content">
+        {{ if (not (isset .Params "no_title")) | or (not (.Params.no_title)) }}
+            {{ if .Params.alternativ_title }}
+                <h1>{{ .Params.alternativ_title }}</h1>
+                {{ else if .Title }}
+                <h1>{{ .Title }}</h1>
+            {{ end }}
+        {{ end }}
+
+        {{- partial "hero-image.html" . -}} {{ .Content }}
+    </div>
 {{ end }}

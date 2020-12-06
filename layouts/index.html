@@ -1,17 +1,9 @@
 {{ define "main" }}
-<!-- pretier-ignore -->
-{{ if .Content }}
+    {{ if .Content }}
+        {{- partial "hero-image.html" . -}}
 
-<!-- pretier-ignore -->
-{{- partial "hero-image.html" . -}}
+        {{- partial "home-news.html" . -}}
 
-<!-- pretier-ignore -->
-{{- partial "home-news.html" . -}}
-
-<!-- pretier-ignore -->
-{{ .Content }}
-
-<!-- pretier-ignore -->
-{{ end }}
-<!-- pretier-ignore -->
+        {{ .Content }}
+    {{ end }}
 {{ end }}
