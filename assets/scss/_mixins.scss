@@ -86,13 +86,13 @@
         @include link-hover;
     }
 }
-@mixin isHome {
-    body.home {
-        @content;
-    }
-}
-@mixin isNotHome {
-    body:not(.home) {
-        @content;
-    }
-}
+// @mixin isHome {
+//     body.home {
+//         @content;
+//     }
+// }
+// @mixin isNotHome {
+//     body:not(.home) {
+//         @content;
+//     }
+// }
