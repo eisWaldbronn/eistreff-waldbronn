@@ -2,8 +2,8 @@
 title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
-hero_headline: Mietet eure private Eiszeit!
-hero_subheadline: Die Eishallen können zum Individualsport unter Beachtung der Corona-Auflagen gemietet werden.
+hero_headline: Eislauf-Gutscheine zu Weihnachten
+hero_subheadline:  Jetzt an Ihre Liebsten denken. Schenken Sie Eintritts-Gutscheine zur nächsten Eröffnung des Eistreffs.
 # hero_headline: Endlich beginnt sie wieder … die EISZEIT
 # hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
 ---
