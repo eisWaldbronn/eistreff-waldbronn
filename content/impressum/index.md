@@ -5,7 +5,7 @@ menu: footer
 weight: 50
 ---
 
-### Angaben gemäß § 5 TMG
+## Angaben gemäß § 5 TMG
 
 {{< param company-long >}}  
 {{< param street >}}  

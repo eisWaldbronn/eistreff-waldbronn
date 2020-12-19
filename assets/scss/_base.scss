@@ -17,42 +17,27 @@ h4 {
 }
 
 h1 {
+    font-size: $font-h1-size;
     color: var(--white);
     margin: var(--h1-margin, 2rem) 0;
-
-    // color: var(--primary);
-    // color: var(--grey-050);
-    // font-size: $font-h1-size-mobile;
-
-    // @include media-phone {
-    //     font-size: $font-h1-size;
-    // }
 }
 
 h2 {
-    // color: var(--grey-500);
-    // color: var(--primary);
-    // font-size: $font-h2-size-mobile;
-    // margin-top: 2rem;
-
-    // @include media-phone {
-    //     font-size: $font-h2-size;
-    // }
+    font-size: $font-h2-size;
+    color: var(--primary);
+    margin: $font-h2-size 0 1rem;
 }
 
 h3 {
-    // color: var(--grey-500);
-    // color: var(--primary);
-    // font-size: $font-h3-size;
-    // margin-top: 2rem;
+    font-size: $font-h3-size;
+    color: var(--primary);
+    margin: 1rem 0;
 }
 
 h4 {
-    // color: var(--black);
-    // color: var(--primary);
-    // // color: var(--grey-300);
-    // font-weight: 400;
-    // margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary);
 }
 
 h5 {
@@ -74,7 +59,7 @@ a {
 }
 
 hr {
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 img {
