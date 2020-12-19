@@ -1,27 +1,28 @@
 body.home {
-    // h2 {
-    //     max-width: 100%;
-    // }
+    --hero-clip-height: 10rem;
 
     h1 {
-        margin: 4rem 0;
+        --h1-margin: 4rem;
+
+        @include media-desktop-only {
+            text-align: center;
+        }
     }
 
     .hero {
         &__snow {
             &:nth-of-type(1) {
-                width: 15rem;
-                height: 15rem;
-                right: 10rem;
-                top: -5rem;
+                --snow-size: 15rem;
+
+                @include media-desktop-only {
+                    display: none;
+                }
             }
 
             &:nth-of-type(2) {
-                width: 33rem;
-                height: 33rem;
+                --snow-size: 33rem;
+                --snow-rotate: 50deg;
                 left: -5rem;
-                bottom: 0rem;
-                transform: rotate(50deg);
             }
         }
     }

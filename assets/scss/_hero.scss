@@ -1,22 +1,25 @@
 .hero {
     grid-column: 1/-1;
     position: relative;
+    background-image: var(--gradient);
 
     &:before {
+        background: var(--white);
         content: '';
         display: block;
         position: absolute;
-        height: 100%;
+        bottom: -1px;
         width: 100%;
-        clip-path: polygon(100% 0, 100% 60%, 50% 90%, 0 60%, 0 0);
-        background-image: var(--gradient);
+        height: var(--hero-clip-height, calc(100% - 11rem));
+        min-height: 5rem;
+        clip-path: polygon(0 0, 50% 65%, 100% 0, 100% 100%, 0 100%);
     }
 
     &__content {
         @include base-container-new;
         position: relative;
         overflow: hidden;
-        min-height: 13rem;
+        min-height: 11rem;
 
         > *:not(.hero__snow) {
             position: relative;
@@ -37,143 +40,13 @@
         background-repeat: no-repeat;
         position: absolute;
         opacity: 0.15;
+        width: var(--snow-size, 30rem);
+        height: var(--snow-size, 30rem);
+        transform: rotate(var(--snow-rotate, 20deg));
+        top: -5rem;
 
         &:nth-of-type(1) {
-            width: 30rem;
-            height: 30rem;
-            right: 2rem;
-            bottom: -5rem;
-            transform: rotate(20deg);
+            right: -5rem;
         }
     }
 }
-
-// .home .hero {
-//     &__snow {
-//         &:nth-of-type(1) {
-//             width: 15rem;
-//             height: 15rem;
-//             right: 10rem;
-//             top: -5rem;
-//         }
-
-//         &:nth-of-type(2) {
-//             width: 33rem;
-//             height: 33rem;
-//             left: -5rem;
-//             bottom: 0rem;
-//         }
-//     }
-// }
-
-// .content.hero {
-//     padding: $base-padding 0;
-
-//     h1 {
-//         display: block;
-//         margin: 0.5rem 0;
-
-//         @include media-tablet-only {
-//             text-align: center;
-//         }
-
-//         @include media-tablet {
-//             margin: 1rem 30% 1rem 0;
-//             font-size: 1.7rem;
-//         }
-
-//         @include media-desktop {
-//             margin: 0.5rem 30% 0.5rem 0;
-//             font-size: 2rem;
-//         }
-
-//         span {
-//             display: block;
-//         }
-
-//         span:last-child {
-//             font-size: 1rem;
-//             border-top: 1px solid;
-//             // color: var(--grey-300);
-//             font-weight: 400;
-//             padding-top: 0.5rem;
-//         }
-//     }
-// }
-
-// @function bg-single-gradient($rotation, $pos, $color1, $color2) {
-//     @return linear-gradient(
-//         #{$rotation},
-//         #{$color-transparent} #{$pos},
-//         #{$color1} #{$pos + 0.1},
-//         #{$color2} #{$pos + $gradient-width},
-//         #{$color-transparent} #{$pos + $gradient-width + 0.1}
-//     );
-// }
-// @mixin bg-gradient($rotation, $pos1, $pos2, $pos3) {
-//     background: var(--gradient),
-//         bg-single-gradient($rotation, $pos1, $gradient-dark, $gradient-mid),
-//         bg-single-gradient($rotation, $pos2, $gradient-mid, $gradient-light),
-//         bg-single-gradient($rotation, $pos3, $gradient-dark, $gradient-mid);
-// }
-// @mixin hero-image-base($height, $rotation, $pos1, $pos2, $pos3) {
-//     &:before {
-//         content: '';
-//         display: block;
-//         position: absolute;
-//         width: 100%;
-//         opacity: 0.4;
-//         background-blend-mode: overlay;
-//         height: $height;
-//         @include bg-gradient($rotation, $pos1, $pos2, $pos3);
-//     }
-// }
-
-// @include isHome {
-//     @include hero-image-base(
-//         $main-bg-top-home + 2 * $base-padding,
-//         $gradient-rotation-home,
-//         $gradient-pos-1,
-//         $gradient-pos-2-home,
-//         $gradient-pos-3-home
-//     );
-
-//     .hero {
-//         &__image {
-//             display: none;
-
-//             @include media-tablet {
-//                 display: block;
-//                 position: absolute;
-//                 top: -$logo-height - 1;
-//                 right: 0;
-//                 z-index: -2;
-//                 opacity: 0.4;
-//                 clip-path: polygon(50% 0, 100% 0%, 75% 100%, 25% 100%);
-//                 height: $main-bg-top-home;
-//                 width: auto;
-//             }
-
-//             @include media-desktop {
-//                 top: -$logo-height - 2;
-//                 clip-path: polygon(25% 0, 100% 0%, 75% 100%, 0% 100%);
-//             }
-//         }
-//     }
-// }
-
-// @include isNotHome {
-//     @include hero-image-base(
-//         $main-bg-top + 2 * $base-padding,
-//         $gradient-rotation,
-//         $gradient-pos-1,
-//         $gradient-pos-2,
-//         $gradient-pos-3
-//     );
-
-//     .hero {
-//         &__image {
-//             border-radius: 15px;
-//         }
-//     }
-// }

@@ -38,10 +38,10 @@
 @mixin base-container-new {
     display: grid;
     // unquote da sonst SASS min() verwendet wird welches die gleiche Einheiten benötigt
-    grid-template-columns: 1fr unquote('min(80vw , #{$width-dekstop})') 1fr;
+    grid-template: min-content/ 1fr unquote('min(80vw , #{$width-dekstop})') 1fr;
 
     & > * {
-        grid-column: 2;
+        grid-column: 2 / 3;
     }
 }
 

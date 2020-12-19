@@ -1,0 +1,5 @@
+{{ $svgName := .Get 0 }}
+
+{{ if $svgName }}
+    {{ partial (print "svg/" ($svgName | safeHTML) ".svg") }}
+{{ end }}

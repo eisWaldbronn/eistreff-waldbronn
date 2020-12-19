@@ -3,6 +3,8 @@ $color-black: #222;
 
 $color-primary: #0078bc;
 
+$color-green: #008b18;
+
 $color-gradient-000: #002590;
 $color-gradient-050: #0078bc;
 $color-gradient-100: #acf3ea;
@@ -30,6 +32,9 @@ $color-transparent: rgba(0, 0, 0, 0);
     --primary: #{$color-primary};
     --primary-250: #{scale-color($color-primary, $lightness: -25%)};
     --primary-400: #{scale-color($color-primary, $lightness: -40%)};
+
+    --green: #{$color-green};
+    --green-400: #{scale-color($color-green, $lightness: -40%)};
 
     --gradient: linear-gradient(
         90deg,

@@ -1,6 +1,73 @@
 .news {
     padding: 0;
     margin: 0;
-    display: flex;
     list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+    justify-items: center;
+
+    &__item {
+        box-shadow: 0 0 10px var(--black-T50);
+        border-radius: 15px;
+        margin: 0 0 1rem 0;
+        padding: 0.5rem 2.5rem;
+        background: var(--white);
+        max-width: 500px;
+
+        em {
+            color: var(--grey-500);
+            font-style: normal;
+            font-size: 0.8rem;
+            display: block;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            border-radius: 1.8rem;
+            justify-content: center;
+            padding: 0.4rem 1rem;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: var(--news-font, var(--primary));
+            background: var(--news-bg, var(--white));
+            border: 2px solid var(--news-border, var(--primary));
+
+            &:hover {
+                color: var(--news-hover-font, var(--white));
+                background: var(--news-hover-bg, var(--primary));
+                border-color: var(--news-hover-border, var(--white));
+            }
+        }
+
+        svg {
+            width: 2rem;
+            transform: rotate(-30deg);
+            flex: initial;
+            margin-right: 1rem;
+        }
+    }
+
+    @include media-desktop-only {
+        &__item {
+            a {
+                font-size: 1rem;
+                word-break: break-word;
+            }
+        }
+    }
+
+    @include media-desktop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &--highlight {
+        --news-bg: var(--green);
+        --news-border: var(--green);
+        --news-font: var(--white);
+        --news-hover-bg: var(--green-400);
+        --news-hover-border: var(--green-400);
+        --news-hover-font: var(--white);
+    }
 }
