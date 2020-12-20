@@ -22,11 +22,17 @@ Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflern
 
 {{< picto-bar >}}
 
+{{< group col-3 >}}
+{{% group %}}
+
 ### Öffentlicher Eislauf
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
 
 [Preise](/preise)
+
+{{% /group %}}
+{{% group %}}
 
 ### Verein
 
@@ -34,6 +40,12 @@ Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, 
 
 [www.erc-waldbronn.de](https://erc-waldbronn.de/)
 
+{{% /group %}}
+{{% group %}}
+
 ### Business
 
 Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle.
+
+{{% /group %}}
+{{< /group >}}

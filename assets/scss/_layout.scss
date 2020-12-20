@@ -1,0 +1,16 @@
+@mixin col-base() {
+    display: grid;
+    column-gap: 3rem;
+}
+
+$col-sizes: 3;
+
+@each $size in $col-sizes {
+    .col-#{$size} {
+        @include col-base;
+
+        @include media-desktop {
+            grid-template-columns: repeat(#{$size}, 1fr);
+        }
+    }
+}
