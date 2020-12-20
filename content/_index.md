@@ -20,6 +20,8 @@ Das Schlittschuhlaufen erlernen oder das eigene Können verbessern: Bei uns kön
 
 Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflernhilfe aus, mit der das Üben ganz sicher besser klappt.
 
+{{< picto-bar >}}
+
 ### Öffentlicher Eislauf
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
