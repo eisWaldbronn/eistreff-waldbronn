@@ -3,7 +3,9 @@
         <span class="hero__snow"></span>
         {{ if .IsHome }}<span class="hero__snow"></span>{{ end }}
 
-        <h1>
+        <h1
+            class="{{ if and (not .IsHome) (not .Params.hero_image) }}hero--headline-space{{ end }}"
+        >
             {{ if .Params.headline }}
                 {{ .Params.headline }}
                 {{ else }}

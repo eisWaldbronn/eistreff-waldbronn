@@ -19,7 +19,6 @@
         @include base-container-new;
         position: relative;
         overflow: hidden;
-        min-height: 11rem;
 
         > *:not(.hero__snow) {
             position: relative;
@@ -48,5 +47,9 @@
         &:nth-of-type(1) {
             right: -5rem;
         }
+    }
+
+    &--headline-space {
+        margin-bottom: 6rem;
     }
 }
