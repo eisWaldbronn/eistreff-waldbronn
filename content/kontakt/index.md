@@ -17,8 +17,7 @@ weight: 90
 
 {{< address >}}
 
-<!-- ToDo: IMAGE Eistreff  -->
-<!-- {{% inner %}}![](https://picsum.photos/570/360){{% /inner %}} -->
+{{% inner %}}![Die Eishalle des Eistreffs in Waldbronn](eistreff-waldbronn.jpg){{% /inner %}}
 
 {{< /group-primary >}}
 
