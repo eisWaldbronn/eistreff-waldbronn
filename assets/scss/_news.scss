@@ -9,7 +9,7 @@
 
     &__item {
         box-shadow: 0 0 10px var(--black-T50);
-        border-radius: 15px;
+        border-radius: $radius;
         margin: 0 0 1rem 0;
         padding: 0.5rem 2.5rem;
         background: var(--white);

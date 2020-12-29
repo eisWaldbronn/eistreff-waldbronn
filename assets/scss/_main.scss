@@ -4,8 +4,6 @@ main {
     background: var(--white);
     color: var(--black);
     padding-bottom: 4rem;
-    // Max Höhe sicherstellen wegen Slideout-Footer
-    min-height: 100vh;
     // Main muss über dem Slideout-Footer liegen
     position: relative;
     z-index: 1;

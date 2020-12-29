@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 0.5rem 0.75em;
+    align-items: center;
 
     &__title {
         grid-column: 1 / -1;

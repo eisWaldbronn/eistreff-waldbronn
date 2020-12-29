@@ -3,14 +3,10 @@
     column-gap: 3rem;
 }
 
-$col-sizes: 3;
+.col-3 {
+    @include col-base;
 
-@each $size in $col-sizes {
-    .col-#{$size} {
-        @include col-base;
-
-        @include media-desktop {
-            grid-template-columns: repeat(#{$size}, 1fr);
-        }
+    @include media-desktop {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
