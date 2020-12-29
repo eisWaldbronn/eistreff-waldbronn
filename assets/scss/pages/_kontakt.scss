@@ -1,4 +1,9 @@
 body.kontakt {
+    iframe {
+        // Because of Layout Shift
+        min-height: 810px;
+    }
+
     .group-primary {
         .address {
             background: var(--gradient);
