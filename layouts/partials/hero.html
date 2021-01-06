@@ -1,0 +1,28 @@
+<div class="hero">
+    <div class="hero__content">
+        <span class="hero__snow"></span>
+        {{ if .IsHome }}<span class="hero__snow"></span>{{ end }}
+
+        <h1
+            class="{{ if and (not .IsHome) (not .Params.hero_image) }}hero--headline-space{{ end }}"
+        >
+            {{ if .Params.headline }}
+                {{ .Params.headline }}
+                {{ else }}
+                {{ .Title }}
+            {{ end }}
+
+            {{ if .Params.subheadline }}
+                <span class="hero__subheadline">{{ .Params.subheadline }}</span>
+            {{ end }}
+        </h1>
+
+        {{ if .IsHome }}
+            {{ partial "news" (dict "context" .) }}
+
+            {{ else if .Params.hero_image }}
+
+            {{ partial "hero-image" . }}
+        {{ end }}
+    </div>
+</div>

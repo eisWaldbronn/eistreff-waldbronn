@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+    <div class="cta__bar {{ .Get "class" }}">
+        {{ .Inner }}
+    </div>
+    {{ else }}
+    <div class="cta__bar {{ .Get 0 }}">
+        {{ .Inner }}
+    </div>
+{{ end }}

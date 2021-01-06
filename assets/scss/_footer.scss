@@ -1,0 +1,80 @@
+footer {
+    @include base-container-new;
+    // Slideout-Footer ganz unten fixieren
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    padding: 2.5rem 0 1.5rem;
+    color: var(--white);
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    place-items: center;
+
+    a {
+        color: var(--white);
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    address {
+        font-size: 0.8rem;
+    }
+
+    @include media-tablet {
+        grid-template-columns: auto 1fr auto;
+    }
+}
+
+.fmenu {
+    display: flex;
+    align-items: flex-end;
+    flex-flow: wrap;
+    justify-content: center;
+
+    &__logo {
+        display: none;
+    }
+
+    &__social,
+    &__link {
+        padding: 0.3rem 0.5rem;
+    }
+
+    &__socials {
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    &__social {
+        display: flex;
+        width: 1.4rem;
+    }
+
+    @include media-tablet {
+        flex-flow: column;
+        justify-content: initial;
+
+        &__logo {
+            width: 15rem;
+            display: flex;
+
+            svg > * {
+                fill: var(--white);
+            }
+        }
+    }
+
+    @include media-tablet-only {
+        &__socials {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

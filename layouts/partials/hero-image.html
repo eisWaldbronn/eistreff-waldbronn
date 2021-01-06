@@ -1,0 +1,12 @@
+{{ if .Params.hero_image }}
+    {{ $image := resources.Get (print "img/" .Params.hero_image) }}
+    {{ $image_alt := cond (isset .Params "hero_image_alt") (.Params.hero_image_alt) (print .Site.Title " | " .Title) }}
+
+    <img
+        class="hero__image"
+        src="{{ $image.RelPermalink }}"
+        alt="{{ $image_alt }}"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+    />
+{{ end }}

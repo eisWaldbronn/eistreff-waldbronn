@@ -1,21 +1,12 @@
 ---
 title: Home
-hero_image: eistreff.png
-hero_image_alt: Eistreff Waldbronn
-hero_headline: Eislauf-Gutscheine zu Weihnachten
-hero_subheadline:  Jetzt an Ihre Liebsten denken. Schenken Sie Eintritts-Gutscheine zur nächsten Eröffnung des Eistreffs.
-# hero_headline: Endlich beginnt sie wieder … die EISZEIT
-# hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
+date: 2020-08-22T11:00:00+01:00
+draft: false
+headline: Eislauf-Gutscheine zu Weihnachten
+subheadline: Jetzt an Ihre Liebsten denken. Schenken Sie Eintritts-Gutscheine zur nächsten Eröffnung des Eistreffs.
+menu: main
+weight: 1
 ---
-
-<!-- {{< cta/bar >}}
-  {{< cta/icon href="https://eistreff.ticketkauf.me" svg="ticket" title="eTicket kaufen" >}}
-  {{< cta/icon href="/events" svg="time" title="Öffnungszeiten" >}}
-  {{< cta/icon href="/events" svg="euro" title="Preise" >}}
-  {{< cta/icon href="/events" svg="route" title="Anfahrt" >}}
-{{< /cta/bar >}} -->
-
-{{< cta/e-ticket >}}
 
 ## Das ultimative Eislaufvergnügen
 
@@ -31,30 +22,30 @@ Ihr Kind ist noch nicht sicher auf den Kufen? Dann leihen Sie doch eine Lauflern
 
 {{< picto-bar >}}
 
-{{< columns >}}
+{{< group col-3 >}}
+{{% group %}}
 
-{{% column %}}
 ### Öffentlicher Eislauf
 
 Für alle freizeitbegeisterten Schlittschuhläufer/innen und für die, die es noch werden wollen.
 
 [Preise](/preise)
-{{% /column %}}
 
-{{% column %}}
+{{% /group %}}
+{{% group %}}
+
 ### Verein
 
-Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling. 
+Aktive Nutzung des Eistreffs durch den ERC-Waldbronn mit den Sparten Eishockey, Eiskunstlauf, Eisstock und Curling.
 
 [www.erc-waldbronn.de](https://erc-waldbronn.de/)
-{{% /column %}}
 
-{{% column %}}
+{{% /group %}}
+{{% group %}}
+
 ### Business
 
-Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle. 
+Seminarräume und Workshop-Möglichkeiten bis hin zu mehrtägigen Trainingscamps in der Eishalle.
 
-<!-- [Business-Club](/business-club) -->
-{{% /column %}}
-
-{{< /columns >}}
+{{% /group %}}
+{{< /group >}}

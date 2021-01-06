@@ -1,0 +1,12 @@
+{{ $param := .Get 0 }}
+{{ $value := index .Site.Params $param }}
+{{ $prepend := .Get 1 }}
+{{ $apend := .Get 2 }}
+
+{{ if $value }}
+    {{ if $prepend }} {{ $prepend | markdownify }} {{ end }}
+
+    {{ $value | markdownify }}
+
+    {{ if $apend }}{{ $apend | markdownify }}{{ end }}
+{{ end }}

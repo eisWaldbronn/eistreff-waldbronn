@@ -1,0 +1,54 @@
+body.oeffnungszeiten-anfahrt,
+body.preise {
+    .col-2 {
+        margin: 3rem 0 1rem;
+        align-items: flex-start;
+
+        @include media-tablet {
+            > *:first-child {
+                order: 1;
+            }
+        }
+    }
+
+    td {
+        &:nth-last-child(2):not(:first-child) {
+            color: var(--grey-500);
+            font-style: italic;
+        }
+    }
+
+    @include media-phone-only {
+        tbody {
+            tr {
+                display: block;
+                // Padding des Table-Td hier übernehmen
+                padding: 0.2rem 1rem;
+            }
+        }
+
+        td {
+            display: block;
+            padding: 0;
+            text-align: center;
+        }
+    }
+
+    @include media-phone {
+        td {
+            &:last-child {
+                width: 6rem;
+                text-align: right;
+
+                @include media-tablet {
+                    width: 8rem;
+                }
+            }
+
+            &:nth-last-child(2):not(:first-child) {
+                min-width: 5rem;
+                text-align: right;
+            }
+        }
+    }
+}

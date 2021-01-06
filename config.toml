@@ -1,8 +1,21 @@
-baseURL = "https://www.eistreff.net/"
+baseURL = "/"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "Eistreff Waldbronn"
-theme = "eistreff"
+
+[menu]
+
+  [[menu.social]]
+    name = "Facebook"
+    pre = "facebook.svg"
+    url = "https://www.facebook.com/ETWaldbronn/"
+    weight = 10
+
+  [[menu.social]]
+    name = "Instagram"
+    pre = "instagram.svg"
+    url = "https://www.instagram.com/eistreff_waldbronn_ggmbh/"
+    weight = 20
 
 [params]
   company = "Eistreff Waldbronn"
@@ -10,10 +23,10 @@ theme = "eistreff"
   street = "Ermlis-Allee 1"
   city = "76337, Waldbronn"
   phone = "07243 / 766 622"
-  phoneInline = "+497243766622"
   fax = ""
   mail = "info@eistreff.net"
   privacy-mail = "datenschutz@eistreff.net"
+  maps = "https://www.google.de/maps/dir//Eistreff+Waldbronn,+Ermlis-Allee+1,+76337+Waldbronn"
   
   director-1-name = "Alexander Schroth"
   director-1-mail = "a.schroth@eistreff.net"
@@ -21,4 +34,7 @@ theme = "eistreff"
   director-2-name = "Manfred Wolf"
   director-2-mail = "m.wolf@eistreff.net"
 
-  tickets = "https://eistreff.ticketkauf.me"
+  tickets = "https://eistreff.ticketkauf.me/"
+
+  nav_mobile_menu = "Menü"
+  nav_follow_us = "Folgt uns"

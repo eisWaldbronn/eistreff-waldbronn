@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Humanist;
+    src: url('../font/Humanist-531-Bold.ttf');
+}
+
+body {
+    font: 16px/1.55 Arial, Verdana, sans-serif;
+    margin: 0;
+    background: var(--gradient);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Humanist;
+}
+
+h1 {
+    font-size: $font-h1-size;
+    color: var(--white);
+    margin: var(--h1-margin, 2rem) 0;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: $font-h2-size;
+    color: var(--primary);
+    margin: $font-h2-size 0 1rem;
+}
+
+h3 {
+    font-size: $font-h3-size;
+    color: var(--primary);
+    margin: 1rem 0;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--primary);
+    // Wegen Table-Td Italic-Version
+    font-style: normal;
+
+    &:hover {
+        color: var(--primary-250);
+    }
+
+    &:active {
+        color: var(--primary-400);
+    }
+}
+
+hr {
+    margin: 3rem 0;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+svg {
+    fill: currentColor;
+    flex: 1;
+}

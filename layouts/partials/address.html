@@ -1,0 +1,9 @@
+<address class="address">
+    <span class="address__title"><b>{{ .Site.Params.company }}</b></span>
+    <span class="address__icon">{{ partial "svg/pin.svg" }}</span>
+    {{ partial "maps" . }}
+    <span class="address__icon">{{ partial "svg/phone.svg" }}</span>
+    {{ partial "phone" . }}
+    <span class="address__icon">{{ partial "svg/mail.svg" }}</span>
+    {{ .Site.Params.mail | markdownify }}
+</address>

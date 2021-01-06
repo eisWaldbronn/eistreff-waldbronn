@@ -1,0 +1,50 @@
+body.kontakt {
+    iframe {
+        // Because of Layout Shift
+        min-height: 810px;
+    }
+
+    .group-primary {
+        .address {
+            background: var(--gradient);
+            color: var(--white);
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -5rem;
+                right: -5rem;
+                background-image: url('../img/snow.svg');
+                background-repeat: no-repeat;
+                opacity: 0.15;
+                width: 20rem;
+                height: 20rem;
+                transform: rotate(-15deg);
+            }
+
+            &__title {
+                display: none;
+            }
+
+            &__icon {
+                width: 2em;
+            }
+
+            a {
+                color: var(--white);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            @include media-phone {
+                padding: 2rem 3rem;
+            }
+        }
+    }
+}

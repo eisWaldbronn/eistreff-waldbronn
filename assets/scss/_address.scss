@@ -1,0 +1,17 @@
+.address {
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem 0.75em;
+    align-items: center;
+
+    &__title {
+        grid-column: 1 / -1;
+        margin-bottom: 0.5rem;
+    }
+
+    &__icon {
+        width: 1.2em;
+        display: flex;
+    }
+}

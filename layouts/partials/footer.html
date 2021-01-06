@@ -1,0 +1,28 @@
+<footer>
+    <div class="footer__content">
+        {{- partial "address" . -}}
+
+        <div class="fmenu__logo">{{ partial "svg/logo.svg" }}</div>
+
+        <nav class="fmenu">
+            {{ range .Site.Menus.footer }}
+                <a class="fmenu__link" href="{{ .URL }}">
+                    {{ $text := print .Name | safeHTML }} {{ $text }}
+                </a>
+            {{ end }}
+
+            <div class="fmenu__socials">
+                {{ range .Site.Menus.social }}
+                    <a
+                        class="fmenu__social"
+                        href="{{ .URL }}"
+                        title="{{ print .Name | safeHTML }}"
+                    >
+                        {{ $svg := print .Pre | safeHTML }}
+                        {{ partial (print "svg/" $svg) }}
+                    </a>
+                {{ end }}
+            </div>
+        </nav>
+    </div>
+</footer>

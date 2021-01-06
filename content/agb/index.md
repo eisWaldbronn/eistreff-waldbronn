@@ -14,9 +14,9 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Der Eistreff Waldbronn bietet mehrere Karten/Tickets für die Nutzung der Anlagen des vorgenannten Unternehmens im Winter oder im Sommer an.
 
-    Zur Regelung der vertraglichen Beziehung - zwischen den Kunden und dem jeweils verkaufenden Unternehmen - in Zusammenhang mit diesen Angeboten, werden die nachstehenden Allgemeinen Geschäftsbedingungen vereinbart. 
+    Zur Regelung der vertraglichen Beziehung - zwischen den Kunden und dem jeweils verkaufenden Unternehmen - in Zusammenhang mit diesen Angeboten, werden die nachstehenden Allgemeinen Geschäftsbedingungen vereinbart.
 
-0. ### Geltungsbereich
+1. ### Geltungsbereich
 
     Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die Vertragsbeziehung zwischen dem Kunden und der Eistreff Waldbronn gGmbH, Ermlis-Allee, D-76337 Waldbronn (nachfolgend "Eistreff Waldbronn") für die Bestellung von Waren und Dienstleistungen aus dem Eistreff Waldbronn Onlineshop (nachfolgend Onlineshop), für schriftliche bzw. telefonische Bestellung des Kunden oder den Kauf oder die Buchung von Dienstleistungen an den Kassen oder dem Onlinebuchungssystem (eTicket-System) der Einrichtungen des Eistreff Waldbronn.
 
@@ -24,7 +24,7 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Der Kunde kann die derzeit gültigen Allgemeinen Geschäftsbedingungen auf der Homepage der Eistreff Waldbronn abrufen und ausdrucken oder im Kassenbereich/Eingang der Eistreff Waldbronn -Einrichtungen einsehen.
 
-0. ### Vertragsschluss
+2. ### Vertragsschluss
 
     Der Vertrag zwischen dem Kunden und des Eistreff Waldbronn kommt bei einem Vertragsschluss an den Kassen der Einrichtungen des Eistreff Waldbronn durch die Aushändigung der Ware oder der Buchungsbestätigung (eTicket-System) durch die Eistreff Waldbronn zustande.
 
@@ -36,7 +36,7 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Der Kaufgegenstand bleibt bis zur vollständigen Bezahlung Eigentum des Eistreff Waldbronn.
 
-0. ### Lieferung und Versand
+3. ### Lieferung und Versand
 
     Die Lieferung von Waren oder Gutscheinen, die nicht durch Barkauf an den Kassen der Einrichtungen des Eistreff Waldbronn durch den Kunden erworben werden, an den Kunden erfolgt auf dessen Gefahr an die von ihm bei der Bestellung angegebene Lieferadresse Die Versandkosten, die im Zuge der jeweiligen Bestellung genannt sowie im Onlineshop gesondert ausgewiesen werden sind vom Kunden zu tragen.
 
@@ -44,9 +44,9 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Der Versand von Waren erfolgt, solange der Vorrat reicht. Der Eistreff Waldbronn ist zu Teillieferungen berechtigt, falls ein Teil der bestellten Ware vorübergehend nicht lieferbar ist. Zusätzliche Versandkosten trägt in diesem Fall der Eistreff Waldbronn.
 
-    Sollte ein Artikel im Einzelfall nicht mehr lieferbar oder vorrätig sein, kann der Eistreff Waldbronn vom Vertrag zurücktreten. Der Kunde wird über die Nichtverfügbarkeit unverzüglich informiert. 
+    Sollte ein Artikel im Einzelfall nicht mehr lieferbar oder vorrätig sein, kann der Eistreff Waldbronn vom Vertrag zurücktreten. Der Kunde wird über die Nichtverfügbarkeit unverzüglich informiert.
 
-0. ### Preise und Versandkosten
+4. ### Preise und Versandkosten
 
     Alle Preise, die auf der Website des Anbieters angegeben sind, verstehen sich einschließlich der jeweils gültigen gesetzlichen Umsatzsteuer. Die entsprechenden Versandkosten werden dem Kunden im Bestellformular angegeben und sind vom Kunden zu tragen, soweit der Kunde nicht von seinem Widerrufsrecht Gebrauch macht. Das Versandrisiko im Falle des vom Kunden gewählten Postversands trägt der Anbieter, wenn der Kunde Verbraucher ist.
 
@@ -54,7 +54,7 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Für die durch den Bezahldienstleister PayPal erhobenen Gebühren, erfolgt keine Rückerstattung, die für die Transaktionen durch den Bezahldienstleister ausgewiesen sind.
 
-0. ### Einlösung, Inhalt und Gültigkeit von Gutscheinen
+5. ### Einlösung, Inhalt und Gültigkeit von Gutscheinen
 
     Leistungsgutscheine für den Eintritt in das Eistreff Waldbronn können gegenüber dem Anbieter ausschließlich für die aus der jeweiligen Artikelbeschreibung ersichtliche Dienstleistung des Anbieters eingelöst werden.
 
@@ -74,7 +74,7 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Im Falle des Erwerbs einer Eintrittskarte für das Eistreff Waldbronn behält sich der Anbieter vor, bei Vorliegen wichtiger Gründe (bspw. im Falle eines überhöhten Besucheraufkommens) dem Kunden den Eintritt in das Eistreff Waldbronn vorübergehend oder tageweise zu verwehren. Dem Kunden steht in diesem Fall ein Rücktrittsrecht zu, der Kaufpreis wird in diesem Fall vom Anbieter zurückerstattet.
 
-0. ### Zahlungsfrist, Eigentumsvorbehalt und Verzug
+6. ### Zahlungsfrist, Eigentumsvorbehalt und Verzug
 
     Es gelten die Preislisten des Eistreff Waldbronn in ihrer zum Zeitpunkt der Bestellung jeweils aktuellen Fassung. Alle Preise sind EURO-Preise und verstehen sich einschließlich der jeweiligen gesetzlichen Umsatzsteuer und zuzüglich der jeweiligen Versandkosten.
 
@@ -90,23 +90,23 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Verzug und Verzugsschaden richten sich nach den gesetzlichen Bestimmungen. Kommt der Kunde mit der Zahlung in Verzug, so ist der Eistreff Waldbronn, wenn sie nach der ersten unentgeltlichen Zahlungsaufforderung erneut zur Zahlung auffordert, berechtigt, dem Kunden die dadurch entstandenen Kosten pauschal in Höhe von 5,00 € in Rechnung zu stellen. Dem Kunden ist der Nachweis gestattet, solche Kosten seien dem Eistreff Waldbronn nicht entstanden oder wesentlich niedriger als die Pauschale.
 
-0. ### Rückgabe und Umtausch
+7. ### Rückgabe und Umtausch
 
     Ein über das Widerrufsrecht, s. Ziff. 10, hinausgehender Anspruch auf Rückgabe oder Umtauschbesteht nicht.
 
     Eine Barauszahlung von Eintrittskarten, Geldwertkarten oder Gutscheinen ist ausgeschlossen.
 
-0. ### Mängelhaftung
+8. ### Mängelhaftung
 
     Es gelten die Vorschriften der gesetzlichen Mängelhaftung.
 
-0. ### Widerrufsrecht des Kunden
+9. ### Widerrufsrecht des Kunden
 
     Sollte eine Ware im Onlineshop oder schriftlich oder telefonisch bestellt worden sein, gilt für den Kunden, sofern er Verbraucher i.S.d. § 13 BGB ist, die unten aufgeführte Widerrufsbelehrung. Der Kunde kann durch seine Widerrufserklärung den abgeschlossenen Vertrag widerrufen.
 
     Gemäß § 312g Abs. 2 Nr. 9 BGB besteht ein Widerrufsrecht nicht bei Verträgen [.] zur Erbringung weiterer Dienstleistungen im Zusammenhang mit Freizeitbetätigungen, wenn der Vertrag für die Erbringung einen spezifischen Termin oder Zeitraum vorsieht.
 
-0. ### Rücktritt
+10. ### Rücktritt
 
     Sollte der Eistreff Waldbronn durch höhere Gewalt, Arbeitskampfmaßnahmen bei dem eigenen Unternehmen oder Zulieferbetrieben, Anordnungen von hoher Hand oder durch Umstände, die abzuwenden nicht in ihrer Macht liegen bzw. deren Abwendung mit einem angemessenen wirtschaftlichen Aufwand nicht erreicht werden kann, gehindert sein, die Erbringung ihrer vertraglichen Pflichten zu gewährleisten, so ruhen die vertraglichen Pflichten des Eistreff Waldbronn, bis diese Umstände und deren Folgen beseitigt sind. In solchen Fällen kann der Kunde keine Entschädigung beanspruchen.
 
@@ -114,21 +114,21 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Der Eistreff Waldbronn behält sich bei Schreib-, Druck- und Rechenfehlern das Recht zur Anfechtung des geschlossenen Vertrages vor.
 
-0. ### Haus- und Eislaufodnung
+11. ### Haus- und Eislaufodnung
 
     Mit dem Kauf von Eintrittskarten und Gutscheinen bzw. der Einlösung von Gutscheinen erkennt der Kunde für die Nutzung der Einrichtungen des Eistreff Waldbronn die "Haus- und Eislaufordnung" des Eistreff Waldbronn in ihrer jeweils aktuellen Fassung an. Die jeweils geltende Fassung ist der Internetseite des Eistreff Waldbronn (www.eistreff.de) zu entnehmen und ist in den Einrichtungen des Eistreff Waldbronn zur Einsicht ausgehängt.
 
-0. ### Haftung und Schadenersatz
+12. ### Haftung und Schadenersatz
 
     Der Eistreff Waldbronn schließt die Haftung für leicht fahrlässige Pflichtverletzungen aus, sofern diese keine vertragswesentlichen Pflichten, d.h. solcher Pflichten, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertrauen darf (sog. Kardinalpflichten), Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit oder Garantien betreffen. Gleiches gilt für leicht fahrlässige Pflichtverletzungen der Erfüllungsgehilfen und gesetzlichen Vertreter des Eistreff Waldbronn. Zu den vertragswesentlichen Pflichten gehört insbesondere die Pflicht, dem Kunden die Sache zu übergeben und ihm das Eigentum daran zu verschaffen. Weiterhin hat der Eistreff Waldbronn dem Kunden die Sache frei von Sach- und Rechtsmängeln zu verschaffen.
 
     Im Falle einer Verletzung wesentlicher Vertragspflichten, welche auf anderen Umständen als Vorsatz oder grober Fahrlässigkeit beruht, beschränkt sich die Haftung auf den Schaden, den BBF bei Abschluss des jeweiligen Vertrages als mögliche Folge der Vertragsverletzung vorausgesehen hat oder unter Berücksichtigung der Umstände, die sie kannte oder kennen musste, hätte voraussehen müssen. Gleiches gilt bei grob fahrlässigem Verhalten einfacher Erfüllungsgehilfen (nicht leitende Angestellte) außerhalb des Bereichs der wesentlichen Vertragspflichten sowie der Lebens-, Körper- oder Gesundheitsschäden.
 
-0. ### Gewährleistung
+13. ### Gewährleistung
 
     Liegt ein Mangel der Ware vor, ist der Eistreff Waldbronn innerhalb der Gewährleistungsfrist von 2 Jahren zur Nacherfüllung berechtigt. Der Eistreff Waldbronn ist berechtigt, die vom Kunden gewählte Art der Nacherfüllung zu verweigern, wenn sie nur mit unverhältnismäßigen Kosten möglich ist und die andere Art der Nacherfüllung ohne erhebliche Nachteile für den Kunden bleibt. Während der Nacherfüllung sind die Herabsetzung des Kaufpreises oder der Rücktritt vom Vertrag ausgeschlossen. Ist die Nacherfüllung nicht erfolgreich, kann der Kunde die weiteren gesetzlichen Rechte zur Mängelgewährleistung in Anspruch nehmen (insbesondere Rücktritt bzw. Minderung).
 
-0. ### Anwendbares Recht, Erfüllungsort und Gerichtsstand, salvatorische Klausel
+14. ### Anwendbares Recht, Erfüllungsort und Gerichtsstand, salvatorische Klausel
 
     Für die vertraglichen Beziehungen gilt deutsches Recht unter Ausschluss des UN-Kaufrechts.
 
@@ -138,7 +138,7 @@ für den Verkauf von Eintrittskarten, Gutscheinen und sonstigen Verkaufsartikeln
 
     Sollten einzelne Bestimmungen dieser AGB unwirksam oder undurchführbar sein oder werden, so bleiben die Bestimmungen dieser AGB im Übrigen davon unberührt. An die Stelle der unwirksamen bzw. undurchführbaren Bestimmung tritt die gesetzliche Bestimmung. Sofern keine gesetzliche Regelung besteht, wird die unwirksame bzw. undurchführbare Bestimmung durch eine wirksame oder durchführbare, in ihrem wirtschaftlichen Ergebnis möglichst gleichkommende Bestimmung ersetzt. Entsprechendes gilt für jede Lücke im Vertrag.
 
-0. ### Beilegung von Streitigkeiten aus Onlineverträgen
+15. ### Beilegung von Streitigkeiten aus Onlineverträgen
 
     Streitigkeiten aus Online-Verträgen sind seit dem 9.1.2016 einer alternativen Streitbeilegung zugänglich. Zukünftig können Sie eine geeignete Streitbeilegungsstelle für Onlineverträge auf der anerkannten Streitbeilegungsstelle der EU (OS-Plattform) finden. Dies ist in der Verordnung (EU) Nr. 524/2013 über die Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) geregelt.
 

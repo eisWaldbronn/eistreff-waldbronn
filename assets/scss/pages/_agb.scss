@@ -1,0 +1,47 @@
+body.datenschutz,
+body.agb-corona,
+body.agb {
+    a {
+        word-break: break-all;
+    }
+
+    ol {
+        padding-left: 1.5rem;
+
+        h3,
+        h4 {
+            margin-top: 2.5rem;
+        }
+
+        ::marker {
+            font-family: Humanist;
+            font-size: $font-h3-size;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+
+            ::marker {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+
+            ol {
+                list-style-type: upper-latin;
+
+                ::marker {
+                    font-family: Arial, Verdana, sans-serif;
+                    color: var(--black);
+                }
+            }
+        }
+    }
+
+    @include media-phone-only {
+        ol ol {
+            padding: 0;
+        }
+    }
+}

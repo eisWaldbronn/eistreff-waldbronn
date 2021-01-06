@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    margin: 0 0 1rem;
+    border-spacing: 0;
+    border: 1px solid var(--grey-100);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--grey-050);
+}
+
+td,
+th {
+    padding: 0;
+
+    &:not(:empty) {
+        padding: 0.2rem 1rem;
+    }
+}
+
+p + table {
+    // solange 'main > p' margin-bottom '1rem' ist
+    margin-top: -1rem;
+}

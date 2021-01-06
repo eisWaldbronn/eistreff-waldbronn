@@ -1,0 +1,11 @@
+main {
+    @include base-container-new;
+    grid-column: 1 / -1;
+    background: var(--white);
+    color: var(--black);
+    padding-bottom: 4rem;
+    // Main muss über dem Slideout-Footer liegen
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 8px 4px 0 var(--black-T50);
+}

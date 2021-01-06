@@ -1,0 +1,2 @@
+{{ $slug := .Get 0 }}
+{{ partial "news" (dict "context" . "slug" $slug) }}
