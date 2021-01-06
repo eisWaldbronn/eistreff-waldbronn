@@ -1,9 +1,21 @@
-<ul class="news">
-    {{ range first 2 (where .Site.RegularPages.ByWeight "Section" "news" ) }}
-        <li
+{{ if .slug }}
+    {{ with .context.Site.GetPage (print "news/" .slug) }}
+        <div
             class="news__item {{ if .Params.type }}{{ print "news--" .Params.type }}{{ end }}"
         >
             {{ .Content }}
-        </li>
+        </div>
     {{ end }}
-</ul>
+
+    {{ else }}
+
+    <ul class="news">
+        {{ range first 2 (where .context.Site.RegularPages.ByWeight "Section" "news" ) }}
+            <li
+                class="news__item {{ if .Params.type }}{{ print "news--" .Params.type }}{{ end }}"
+            >
+                {{ .Content }}
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}

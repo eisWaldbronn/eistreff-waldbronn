@@ -18,7 +18,7 @@
         </h1>
 
         {{ if .IsHome }}
-            {{ partial "news" . }}
+            {{ partial "news" (dict "context" .) }}
 
             {{ else if .Params.hero_image }}
 

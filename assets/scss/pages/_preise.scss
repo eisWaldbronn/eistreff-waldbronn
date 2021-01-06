@@ -1,66 +1,53 @@
-body.oeffnungszeiten-anfahrt,
 body.preise {
-    h5 {
-        border: 1px solid var(--grey-200);
-        border-radius: 10px;
-        padding: 0.35rem 1.5rem;
-    }
+    .col-2 {
+        margin: 3rem 0 1rem;
+        align-items: flex-start;
 
-    table {
-        width: 100%;
-        border-spacing: 0;
-    }
-
-    thead {
-        display: none;
-    }
-
-    tr {
-        transform: scale(1);
-        transition: transform 0.3s;
-    }
-
-    tr td {
-        &:first-child {
-            padding-left: 2rem;
-
-            strong {
-                margin-left: -1rem;
+        @include media-tablet {
+            > *:first-child {
+                order: 1;
             }
         }
-
-        &:last-child {
-            padding-right: 2rem;
-        }
-    }
-
-    tr:hover {
-        box-shadow: 0 0 10px var(--black-T30);
-        transform: scale(1.05);
-        border-radius: 10px;
-        cursor: default;
     }
 
     td {
-        padding: 0.5rem 1rem;
+        &:nth-last-child(2):not(:first-child) {
+            color: var(--grey-500);
+            font-style: italic;
+        }
     }
 
-    td:nth-of-type(3n),
-    td:nth-of-type(2n) {
-        text-align: right;
-        min-width: 4rem;
-    }
-
-    .grid {
-        grid-template-columns: 1fr 1fr;
-
-        span:hover {
-            background: grey;
+    @include media-phone-only {
+        tbody {
+            tr {
+                display: block;
+                // Padding des Table-Td hier übernehmen
+                padding: 0.2rem 1rem;
+            }
         }
 
-        span:nth-of-type(2n) {
-            text-align: right;
-            margin-right: 10rem;
+        td {
+            display: block;
+            padding: 0;
+            text-align: center;
+        }
+    }
+
+    @include media-phone {
+        td {
+            &:last-child {
+                width: 5rem;
+                text-align: right;
+
+                @include media-tablet {
+                    width: 8rem;
+                }
+            }
+
+            &:nth-last-child(2):not(:first-child) {
+                min-width: 5rem;
+                text-align: right;
+            }
         }
     }
 }

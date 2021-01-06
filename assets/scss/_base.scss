@@ -49,6 +49,8 @@ a {
     color: var(--primary);
     // Wegen Link auf der Datenschutz-Seite
     word-break: break-all;
+    // Wegen Table-Td Italic-Version
+    font-style: normal;
 
     &:hover {
         color: var(--primary-250);
