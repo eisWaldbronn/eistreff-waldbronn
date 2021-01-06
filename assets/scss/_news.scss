@@ -22,9 +22,11 @@
             display: block;
         }
 
-        a {
+        > h5:first-child,
+        > *:first-child a {
             display: flex;
             align-items: center;
+            text-align: center;
             border-radius: 1.8rem;
             justify-content: center;
             padding: 0.4rem 1rem;
@@ -32,6 +34,13 @@
             text-decoration: none;
             color: var(--news-font, var(--primary));
             background: var(--news-bg, var(--white));
+        }
+
+        > h5:first-child {
+            border: 1px solid var(--news-border, var(--grey-200));
+        }
+
+        > *:first-child a {
             border: 2px solid var(--news-border, var(--primary));
 
             &:hover {

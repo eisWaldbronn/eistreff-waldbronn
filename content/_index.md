@@ -2,8 +2,8 @@
 title: Home
 date: 2020-08-22T11:00:00+01:00
 draft: false
-headline: Mietet eure private Eiszeit!
-subheadline: Die Eishallen können zum Individualsport unter Beachtung der Corona-Auflagen gemietet werden.
+headline: Eislauf-Gutscheine zu Weihnachten
+subheadline: Jetzt an Ihre Liebsten denken. Schenken Sie Eintritts-Gutscheine zur nächsten Eröffnung des Eistreffs.
 menu: main
 weight: 1
 ---

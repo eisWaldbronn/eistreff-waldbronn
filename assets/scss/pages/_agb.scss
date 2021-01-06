@@ -1,6 +1,10 @@
 body.datenschutz,
 body.agb-corona,
 body.agb {
+    a {
+        word-break: break-all;
+    }
+
     ol {
         padding-left: 1.5rem;
 

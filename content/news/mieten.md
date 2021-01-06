@@ -4,7 +4,6 @@ date: 2020-11-24T11:41:34+01:00
 draft: true
 weight: 10
 type: highlight
-icon:
 ---
 
 [{{< svg ticket >}} Eiszeit mieten]({{< cta/tickets >}})
