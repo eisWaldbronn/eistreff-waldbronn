@@ -2,10 +2,8 @@
 title: Home
 hero_image: eistreff.png
 hero_image_alt: Eistreff Waldbronn
-hero_headline: Eislauf-Gutscheine zu Weihnachten
-hero_subheadline:  Jetzt an Ihre Liebsten denken. Schenken Sie Eintritts-Gutscheine zur nächsten Eröffnung des Eistreffs.
-# hero_headline: Endlich beginnt sie wieder … die EISZEIT
-# hero_subheadline: Schlittschuhlaufen in zwei Hallen, natürlich unter Beachtung der Corona-Regeln!
+hero_headline: Wir sagen Danke für die Unterstützung
+hero_subheadline: Schweren Herzens beenden wir die Saison 2020/2021. Der Start der nächsten Wintersaison ist für Anfang Oktober 2021 geplant.
 ---
 
 <!-- {{< cta/bar >}}
